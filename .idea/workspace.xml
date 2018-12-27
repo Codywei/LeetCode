@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment=" ListNode节点定义">
+    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" afterPath="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
     </list>
@@ -18,8 +18,8 @@
       <file leaf-file-name="DoublePointer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,7 +372,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
-      <workItem from="1545788805867" duration="8389000" />
+      <workItem from="1545788805867" duration="9620000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -381,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545806900462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="双指针6题">
+      <created>1545806947002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545806947002</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8389000" />
+    <option name="totallyTimeSpent" value="9620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -428,7 +435,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" ListNode节点定义" />
-    <option name="LAST_COMMIT_MESSAGE" value=" ListNode节点定义" />
+    <MESSAGE value="双指针6题" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针6题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        <state relative-caret-position="88">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,9 @@
 import java.util.Arrays;
 import java.util.HashSet;
 
+/**
+ 双指针练习
+ * */
 public class DoublePointer {
     private final static HashSet<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
@@ -50,7 +53,7 @@ public class DoublePointer {
     }
 
 
-    
+
     /**
      3.回文字符串
      题目描述：可以删除一个字符，判断是否能构成回文字符串。
