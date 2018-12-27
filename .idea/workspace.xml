@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/src/MergeSort.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
     </list>
@@ -41,14 +41,14 @@
       <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state relative-caret-position="680">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -57,6 +57,16 @@
                 <element signature="e#306#307#0" expanded="true" />
                 <element signature="e#347#348#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,6 +105,8 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -446,7 +458,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
-      <workItem from="1545788805867" duration="14752000" />
+      <workItem from="1545788805867" duration="16343000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -476,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545878002933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" 排序抽象类">
+      <created>1545878260571</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545878260571</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14752000" />
+    <option name="totallyTimeSpent" value="16343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -525,7 +544,8 @@
     <MESSAGE value=" ListNode节点定义" />
     <MESSAGE value="双指针6题" />
     <MESSAGE value=" 排序练习题" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 排序练习题" />
+    <MESSAGE value=" 排序抽象类" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 排序抽象类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state relative-caret-position="680">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -595,6 +615,14 @@
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
