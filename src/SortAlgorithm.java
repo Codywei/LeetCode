@@ -5,7 +5,7 @@ import java.util.*;
  * */
 public class SortAlgorithm {
     /**
-    1. Kth Element
+    1. 数组中第K大元素
      题目描述：找到第 k 大的元素。
      * */
 
