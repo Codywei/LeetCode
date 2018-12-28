@@ -131,6 +131,20 @@ public class GreedyStrategy {
         return cnt >= n;
     }
 
+    /**
+     6.判断是否为子序列
+     * */
+    public boolean isSubsequence(String s, String t) {
+        int index = -1;
+        for (char c : s.toCharArray()) {
+            index = t.indexOf(c, index + 1);
+            if (index == -1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 
     public static void main(String[] args) {
          GreedyStrategy gs=new GreedyStrategy();
@@ -166,6 +180,11 @@ public class GreedyStrategy {
         //第五题
         int[] flowered={1,0,0,0,1};
         System.out.println("能种植这么多花朵吗： "+gs.canPlaceFlowers(flowered,1));
+
+        //第六题
+        String s="abc";
+        String t="ahbgdc";
+        System.out.println("是否为子序列： "+gs.isSubsequence(s,t));
     }
 
 
