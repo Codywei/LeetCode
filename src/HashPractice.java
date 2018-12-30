@@ -1,2 +1,5 @@
+/**
+ ¹þÏ£Á·Ï°
+ * */
 public class HashPractice {
 }
