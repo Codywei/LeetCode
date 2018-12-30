@@ -254,13 +254,13 @@ public class SortBase {
         @Override
         public void sort(T[] nums) {
             int N = nums.length - 1;
-            //创建小根堆
+            //创建大根堆
             for (int k = N / 2; k >= 1; k--) {
                 int temp=k;
                 sink(nums, temp, N);
             }
 
-            //调整小根堆
+            //调整大根堆
             while (N > 1) {
                 swap(nums, 1, N--);
                 sink(nums, 1, N);
