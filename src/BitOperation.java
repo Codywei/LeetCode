@@ -1,2 +1,5 @@
+/**
+ Œª‘ÀÀ„¡∑œ∞
+ * */
 public class BitOperation {
 }
