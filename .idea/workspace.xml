@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/StackandQueue.java" afterPath="$PROJECT_DIR$/../LeetCode/src/StackandQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,16 +39,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicPlanning.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -110,11 +100,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackandQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackandQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreePractice.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/StackandQueue.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" />
       </list>
     </option>
   </component>
@@ -588,7 +589,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
-      <workItem from="1545788805867" duration="44059000" />
+      <workItem from="1545788805867" duration="44110000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -730,11 +731,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546133313170</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary=" 栈和队列练习">
+      <created>1546133384454</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546133384454</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44059000" />
+    <option name="totallyTimeSpent" value="44110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -793,7 +801,8 @@
     <MESSAGE value=" 哈希练习" />
     <MESSAGE value=" 链表练习" />
     <MESSAGE value=" 数学练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 数学练习" />
+    <MESSAGE value=" 栈和队列练习" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 栈和队列练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,14 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -969,6 +970,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
