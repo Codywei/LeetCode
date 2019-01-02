@@ -11,7 +11,7 @@ public class SortBase {
      选择排序(记录最小值，将它与数组的第一个元素交换位置)
 
      选择出数组中的最小元素，将它与数组的第一个元素交换位置。再从剩下的元素中选择出最小的元素，将它与数组的第二个元素交换位置。不断进行这样的操作，直到将整个数组排序。
-     选择排序需要 (N^2)/2 次比较和 ~N 次交换，它的运行时间与输入无关，这个特点使得它对一个已经排序的数组也需要这么多的比较和交换操作。
+     选择排序需要 (N^2)/2 次比较和 N 次交换，它的运行时间与输入无关，这个特点使得它对一个已经排序的数组也需要这么多的比较和交换操作。
      * */
     static class Selection<T extends Comparable<T>> extends Sort<T> {
         @Override
@@ -297,7 +297,7 @@ public class SortBase {
 
 
         Integer[] arr1=arr.clone();
-        Selection selection=new SortBase.Selection<>();
+        Selection selection=new Selection<>();
         selection.sort(arr1);
         System.out.println("选择排序结果： ");
         for (int i = 0; i < arr1.length; i++) {
@@ -307,7 +307,7 @@ public class SortBase {
 
 
         Integer[] arr2=arr.clone();
-        Bubble bubble=new SortBase.Bubble();
+        Bubble bubble=new Bubble();
         bubble.sort(arr2);
         System.out.println("冒泡排序结果： ");
         for (int i = 0; i < arr2.length; i++) {
@@ -318,7 +318,7 @@ public class SortBase {
 
 
         Integer[] arr3=arr.clone();
-        Insertion insertion=new SortBase.Insertion<>();
+        Insertion insertion=new Insertion<>();
         insertion.sort(arr3);
         System.out.println("插入排序结果： ");
         for (int i = 0; i < arr3.length; i++) {
@@ -328,7 +328,7 @@ public class SortBase {
 
 
         Integer[] arr4=arr.clone();
-        Shell shell=new SortBase.Shell<>();
+        Shell shell=new Shell<>();
         shell.sort(arr4);
         System.out.println("希尔排序结果： ");
         for (int i = 0; i < arr4.length; i++) {
@@ -338,7 +338,7 @@ public class SortBase {
 
 
         Integer[] arr5=arr.clone();
-        Down2UpMergeSort dumerge=new SortBase.Down2UpMergeSort<>();
+        Down2UpMergeSort dumerge=new Down2UpMergeSort<>();
         dumerge.sort(arr5);
         System.out.println("自底向上排序结果： ");
         for (int i = 0; i < arr5.length; i++) {
@@ -347,7 +347,7 @@ public class SortBase {
         System.out.println();
 
         Integer[] arr6=arr.clone();
-        Up2DownMergeSort udmerge=new SortBase.Up2DownMergeSort<>();
+        Up2DownMergeSort udmerge=new Up2DownMergeSort<>();
         udmerge.sort(arr6);
         System.out.println("自顶向下归并排序结果： ");
         for (int i = 0; i < arr6.length; i++) {
@@ -357,7 +357,7 @@ public class SortBase {
 
 
         Integer[] arr7=arr.clone();
-        QuickSort quick=new SortBase.QuickSort<>();
+        QuickSort quick=new QuickSort<>();
         quick.sort(arr7);
         System.out.println("二向快速排序结果： ");
         for (int i = 0; i < arr7.length; i++) {
@@ -366,7 +366,7 @@ public class SortBase {
         System.out.println();
 
         Integer[] arr8=arr.clone();
-        ThreeWayQuickSort tquick=new SortBase.ThreeWayQuickSort<>();
+        ThreeWayQuickSort tquick=new ThreeWayQuickSort<>();
         tquick.sort(arr8);
         System.out.println("三向快速排序结果： ");
         for (int i = 0; i < arr8.length; i++) {
@@ -380,7 +380,7 @@ public class SortBase {
         for (int i = 1; i <= arr.length; i++) {
             arr9[i]=arr[i-1];
         }
-        HeapSort heap=new SortBase.HeapSort<>();
+        HeapSort heap=new HeapSort<>();
         heap.sort(arr9);
         System.out.println("堆排序结果： ");
         for (int i = 1; i < arr9.length; i++) {
