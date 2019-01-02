@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="110">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortAlgorithm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -157,11 +155,11 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/StringPractice.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java" />
         <option value="$PROJECT_DIR$/../LeetCode/README.md" />
         <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
       </list>
     </option>
   </component>
@@ -485,7 +483,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
       <workItem from="1545788805867" duration="53021000" />
-      <workItem from="1546408592516" duration="2576000" />
+      <workItem from="1546408592516" duration="2603000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -690,11 +688,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546415405797</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary=" 排序练习题">
+      <created>1546415487571</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1546415487571</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55597000" />
+    <option name="totallyTimeSpent" value="55624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -738,7 +743,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" ListNode节点定义" />
     <MESSAGE value="双指针6题" />
-    <MESSAGE value=" 排序练习题" />
     <MESSAGE value=" 排序抽象类" />
     <MESSAGE value=" 归并排序抽象类" />
     <MESSAGE value="数组中第K大元素" />
@@ -758,7 +762,8 @@
     <MESSAGE value=" 数组和矩阵练习" />
     <MESSAGE value="readme" />
     <MESSAGE value=" 位运算练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 位运算练习" />
+    <MESSAGE value=" 排序练习题" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 排序练习题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,6 +875,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -884,6 +890,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -912,6 +921,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -977,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1022,6 +1022,16 @@
         <state relative-caret-position="110">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
