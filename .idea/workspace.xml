@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="" />
+    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment=" 基本的排序算法一览">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
@@ -111,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagramPractice.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DiagramPractice.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -147,7 +150,6 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
@@ -160,6 +162,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
       </list>
     </option>
   </component>
@@ -483,7 +486,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
       <workItem from="1545788805867" duration="53021000" />
-      <workItem from="1546408592516" duration="2603000" />
+      <workItem from="1546408592516" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -695,11 +698,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546415487571</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary=" 基本的排序算法一览">
+      <created>1546415519978</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1546415519978</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55624000" />
+    <option name="totallyTimeSpent" value="57012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -755,7 +765,6 @@
     <MESSAGE value=" 数学练习" />
     <MESSAGE value=" 栈和队列练习" />
     <MESSAGE value=" 树练习" />
-    <MESSAGE value=" 基本的排序算法一览" />
     <MESSAGE value=" 动态规划" />
     <MESSAGE value=" 字符串练习" />
     <MESSAGE value="基本算法一览" />
@@ -763,7 +772,8 @@
     <MESSAGE value="readme" />
     <MESSAGE value=" 位运算练习" />
     <MESSAGE value=" 排序练习题" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 排序练习题" />
+    <MESSAGE value=" 基本的排序算法一览" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 基本的排序算法一览" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -953,14 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1032,6 +1034,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

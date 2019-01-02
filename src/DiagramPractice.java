@@ -1,5 +1,65 @@
+import java.util.Arrays;
+
 /**
- ͼ��ϰ
+图练习
  * */
 public class DiagramPractice {
+    /**
+     1.判断是否为二分图
+
+     Input: [[1,3], [0,2], [1,3], [0,2]]
+     Output: true
+     Explanation:
+     The graph looks like this:
+     0----1
+     |    |
+     |    |
+     3----2
+     We can divide the vertices into two groups: {0, 2} and {1, 3}.
+
+     Example 2:
+     Input: [[1,2,3], [0,2], [0,1,3], [0,2]]
+     Output: false
+     Explanation:
+     The graph looks like this:
+     0----1
+     | \  |
+     |  \ |
+     3----2
+     We cannot find a way to divide the set of nodes into two independent subsets.
+     * */
+
+    public boolean isBipartite(int[][] graph) {
+        int[] colors = new int[graph.length];
+        Arrays.fill(colors, -1);
+        // 处理图不是连通的情况
+        for (int i = 0; i < graph.length; i++) {
+            if (colors[i] == -1 && !isBipartite(i, 0, colors, graph)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean isBipartite(int curNode, int curColor, int[] colors, int[][] graph) {
+        if (colors[curNode] != -1) {
+            return colors[curNode] == curColor;
+        }
+        colors[curNode] = curColor;
+        for (int nextNode : graph[curNode]) {
+            if (!isBipartite(nextNode, 1 - curColor, colors, graph)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        DiagramPractice dp=new DiagramPractice();
+
+        //第一题
+        int[][]diagram={{1,2,3},{0,2},{0,1,3},{0,2}};
+        System.out.println("是不是二分图呢？ "+dp.isBipartite(diagram));
+    }
+
 }
