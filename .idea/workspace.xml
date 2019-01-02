@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/README.md" afterPath="$PROJECT_DIR$/../LeetCode/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" afterPath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
@@ -92,25 +91,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+              <folding>
+                <element signature="e#1427#1428#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,8 +151,8 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/StringPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
         <option value="$PROJECT_DIR$/../LeetCode/README.md" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
       </list>
     </option>
   </component>
@@ -487,7 +476,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545788801020</updated>
       <workItem from="1545788805867" duration="53021000" />
-      <workItem from="1546408592516" duration="2020000" />
+      <workItem from="1546408592516" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -678,11 +667,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546398729537</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="readme">
+      <created>1546414935058</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1546414935058</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55041000" />
+    <option name="totallyTimeSpent" value="55531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -734,7 +730,6 @@
     <MESSAGE value=" 贪心策略" />
     <MESSAGE value=" 搜索策略" />
     <MESSAGE value=" 图练习" />
-    <MESSAGE value=" 位运算练习" />
     <MESSAGE value=" 哈希练习" />
     <MESSAGE value=" 链表练习" />
     <MESSAGE value=" 数学练习" />
@@ -745,7 +740,9 @@
     <MESSAGE value=" 字符串练习" />
     <MESSAGE value="基本算法一览" />
     <MESSAGE value=" 数组和矩阵练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 数组和矩阵练习" />
+    <MESSAGE value="readme" />
+    <MESSAGE value=" 位运算练习" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 位运算练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -838,7 +835,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -986,14 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="4" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1002,6 +994,17 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <element signature="e#1427#1428#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
