@@ -3,16 +3,16 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- �����������㷨һ��
+ 基本的排序算法一览
  * */
 
 public class SortBase {
 
     /**
-     ѡ������(��¼��Сֵ������������ĵ�һ��Ԫ�ؽ���λ��)
+     选择排序(记录最小值，将它与数组的第一个元素交换位置)
 
-     ѡ��������е���СԪ�أ�����������ĵ�һ��Ԫ�ؽ���λ�á��ٴ�ʣ�µ�Ԫ����ѡ�����С��Ԫ�أ�����������ĵڶ���Ԫ�ؽ���λ�á����Ͻ��������Ĳ�����ֱ����������������
-     ѡ��������Ҫ (N^2)/2 �αȽϺ� N �ν�������������ʱ���������޹أ�����ص�ʹ������һ���Ѿ����������Ҳ��Ҫ��ô��ıȽϺͽ���������
+     选择出数组中的最小元素，将它与数组的第一个元素交换位置。再从剩下的元素中选择出最小的元素，将它与数组的第二个元素交换位置。不断进行这样的操作，直到将整个数组排序。
+     选择排序需要 (N^2)/2 次比较和 N 次交换，它的运行时间与输入无关，这个特点使得它对一个已经排序的数组也需要这么多的比较和交换操作。
      * */
     static class Selection<T extends Comparable<T>> extends Sort<T> {
         @Override
@@ -32,10 +32,10 @@ public class SortBase {
 
 
     /**
-     ð�����򣨲��Ͻ�������������δ��������Ԫ���ϸ����Ҳࣩ
+     冒泡排序（不断交换相邻逆序，让未排序的最大元素上浮到右侧）
 
-     �����Ҳ��Ͻ������������Ԫ�أ���һ�ֵ�ѭ��֮�󣬿�����δ��������Ԫ���ϸ����Ҳࡣ
-     ��һ��ѭ���У����û�з�����������˵�������Ѿ�������ģ���ʱ����ֱ���˳���
+     从左到右不断交换相邻逆序的元素，在一轮的循环之后，可以让未排序的最大元素上浮到右侧。
+     在一轮循环中，如果没有发生交换，就说明数组已经是有序的，此时可以直接退出。
      * */
     static class Bubble<T extends Comparable<T>> extends Sort<T> {
         @Override
@@ -57,14 +57,14 @@ public class SortBase {
 
 
     /**
-     ��������(ÿ�ζ�����ǰԪ�ز��뵽����Ѿ�����������У�ʹ�ò���֮�����������Ȼ����)
+     插入排序(每次都将当前元素插入到左侧已经排序的数组中，使得插入之后左侧数组依然有序)
 
-     ÿ�ζ�����ǰԪ�ز��뵽����Ѿ�����������У�ʹ�ò���֮�����������Ȼ����
-     �������� {3, 5, 2, 4, 1}����������������(3, 2), (3, 1), (5, 2), (5, 4), (5, 1), (2, 1), (4, 1)����������ÿ��ֻ�ܽ�������Ԫ�أ��������������� 1����˲���������Ҫ�����Ĵ���Ϊ����������
-     ��������ĸ��Ӷ�ȡ��������ĳ�ʼ˳����������Ѿ����������ˣ�������٣���ô���������ܿ졣
-     ƽ������²���������Ҫ (N^2)/4 �Ƚ��Լ� (N^2)/4 �ν�����
-     ����������Ҫ (N^2)/2 �Ƚ��Լ� (N^2)/2 �ν������������������ǵ���ģ�
-     ��õ��������Ҫ N-1 �αȽϺ� 0 �ν�������õ�������������Ѿ������ˡ�
+     每次都将当前元素插入到左侧已经排序的数组中，使得插入之后左侧数组依然有序。
+     对于数组 {3, 5, 2, 4, 1}，它具有以下逆序：(3, 2), (3, 1), (5, 2), (5, 4), (5, 1), (2, 1), (4, 1)，插入排序每次只能交换相邻元素，令逆序数量减少 1，因此插入排序需要交换的次数为逆序数量。
+     插入排序的复杂度取决于数组的初始顺序，如果数组已经部分有序了，逆序较少，那么插入排序会很快。
+     平均情况下插入排序需要 (N^2)/4 比较以及 (N^2)/4 次交换；
+     最坏的情况下需要 (N^2)/2 比较以及 (N^2)/2 次交换，最坏的情况是数组是倒序的；
+     最好的情况下需要 N-1 次比较和 0 次交换，最好的情况就是数组已经有序了。
      * */
     static class Insertion<T extends Comparable<T>> extends Sort<T> {
         @Override
@@ -79,13 +79,13 @@ public class SortBase {
     }
 
     /**
-     ϣ������(�����������ľ����ԣ����������ڵ�Ԫ��)
+     希尔排序(解决插入排序的局限性，交换不相邻的元素)
 
-     ���ڴ��ģ�����飬���������������Ϊ��ֻ�ܽ������ڵ�Ԫ�أ�ÿ��ֻ�ܽ������������� 1��
-     ϣ������ĳ��־���Ϊ�˽��������������־����ԣ���ͨ�����������ڵ�Ԫ�أ�ÿ�ο��Խ������������ٴ��� 1��
-     ϣ������ʹ�ò�������Լ�� h �����н�������ͨ�����ϼ�С h������� h=1���Ϳ���ʹ����������������ġ�
+     对于大规模的数组，插入排序很慢，因为它只能交换相邻的元素，每次只能将逆序数量减少 1。
+     希尔排序的出现就是为了解决插入排序的这种局限性，它通过交换不相邻的元素，每次可以将逆序数量减少大于 1。
+     希尔排序使用插入排序对间隔 h 的序列进行排序。通过不断减小 h，最后令 h=1，就可以使得整个数组是有序的。
 
-     ϣ�����������ʱ��ﲻ��ƽ������ʹ�õ������� 1, 4, 13, 40, ... ��ϣ����������Ҫ�ıȽϴ������ᳬ�� N �����ɱ����ڵ������еĳ��ȡ�
+     希尔排序的运行时间达不到平方级别，使用递增序列 1, 4, 13, 40, ... 的希尔排序所需要的比较次数不会超过 N 的若干倍乘于递增序列的长度。
      * */
      static class Shell<T extends Comparable<T>> extends Sort<T> {
         @Override
@@ -111,9 +111,9 @@ public class SortBase {
 
 
     /**
-     �Ե����Ϲ鲢����(ѭ������)
+     自底向上归并排序(循环控制)
 
-     �ȹ鲢��Щ΢�����飬Ȼ��ɶԹ鲢�õ���΢�����顣
+     先归并那些微型数组，然后成对归并得到的微型数组。
      * */
     static class Down2UpMergeSort<T extends Comparable<T>> extends MergeSort<T> {
         @Override
@@ -133,10 +133,10 @@ public class SortBase {
 
 
     /**
-     �Զ����¹鲢���򣨵ݹ飩
+     自顶向下归并排序（递归）
 
-     ��һ��������ֳ�����С����ȥ��⡣
-     ��Ϊÿ�ζ�������԰�ֳ����������⣬���ֶ԰�ֵ��㷨���Ӷ�һ��Ϊ O(NlogN)��
+     将一个大数组分成两个小数组去求解。
+     因为每次都将问题对半分成两个子问题，这种对半分的算法复杂度一般为 O(NlogN)。
      * */
     static class Up2DownMergeSort<T extends Comparable<T>> extends MergeSort<T> {
         @Override
@@ -161,11 +161,11 @@ public class SortBase {
 
 
     /**
-     �����зַֿ�������
+     二向切分分快速排序
 
-     ����������ԭ�����򣬲���Ҫ�������飬���ǵݹ������Ҫ����ջ��
-     ����������õ��������ÿ�ζ������ܽ�����԰�֣������ݹ���ô����������ٵġ���������±Ƚϴ���Ϊ CN=2CN/2+N�����Ӷ�Ϊ O(NlogN)��
-     �������£���һ�δ���С��Ԫ���з֣��ڶ��δӵڶ�С��Ԫ���з֣������㡣�������������Ҫ�Ƚ� N2/2��Ϊ�˷�ֹ�����ʼ��������ģ��ڽ��п�������ʱ��Ҫ����������顣
+     快速排序是原地排序，不需要辅助数组，但是递归调用需要辅助栈。
+     快速排序最好的情况下是每次都正好能将数组对半分，这样递归调用次数才是最少的。这种情况下比较次数为 CN=2CN/2+N，复杂度为 O(NlogN)。
+     最坏的情况下，第一次从最小的元素切分，第二次从第二小的元素切分，如此这般。因此最坏的情况下需要比较 N2/2。为了防止数组最开始就是有序的，在进行快速排序时需要随机打乱数组。
      * */
     static class QuickSort<T extends Comparable<T>> extends Sort<T> {
 
@@ -212,10 +212,10 @@ public class SortBase {
 
 
     /**
-     �����зֿ�������
+     三向切分快速排序
 
-     �����д����ظ�Ԫ�ص����飬���Խ������з�Ϊ�����֣��ֱ��ӦС�ڡ����ںʹ����з�Ԫ�ء�
-     �����зֿ����������ֻ�����ɲ�ͬ����������������������ʱ�����������
+     对于有大量重复元素的数组，可以将数组切分为三部分，分别对应小于、等于和大于切分元素。
+     三向切分快速排序对于只有若干不同主键的随机数组可以在线性时间内完成排序。
      * */
     static class ThreeWayQuickSort<T extends Comparable<T>> extends QuickSort<T> {
 
@@ -241,27 +241,27 @@ public class SortBase {
     }
 
     /**
-     ������
-     �����Ԫ�غ͵�ǰ������������һ��Ԫ�ؽ���λ�ã����Ҳ�ɾ��������ô�Ϳ��Եõ�һ����β��ͷ�ĵݼ����У���������������һ���������У�����Ƕ�����
+     堆排序
+     把最大元素和当前堆中数组的最后一个元素交换位置，并且不删除它，那么就可以得到一个从尾到头的递减序列，从正向来看就是一个递增序列，这就是堆排序。
 
-     �������齨������ֱ�ӵķ����Ǵ����ұ�����������ϸ�������
-     һ������Ч�ķ����Ǵ�����������³����������һ���ڵ�������ڵ㶼�Ѿ��Ƕ�������ô�����³���������ʹ������ڵ�Ϊ���ڵ�Ķ�����
-     Ҷ�ӽڵ㲻��Ҫ�����³����������Ժ���Ҷ�ӽڵ��Ԫ�أ����ֻ��Ҫ����һ���Ԫ�ؼ��ɡ�
+     无序数组建立堆最直接的方法是从左到右遍历数组进行上浮操作。
+     一个更高效的方法是从右至左进行下沉操作，如果一个节点的两个节点都已经是堆有序，那么进行下沉操作可以使得这个节点为根节点的堆有序。
+     叶子节点不需要进行下沉操作，可以忽略叶子节点的元素，因此只需要遍历一半的元素即可。
      * */
     static class HeapSort<T extends Comparable<T>> extends Sort<T> {
         /**
-         * ����� 0 ��λ�ò�����Ԫ��
+         * 数组第 0 个位置不能有元素
          */
         @Override
         public void sort(T[] nums) {
             int N = nums.length - 1;
-            //���������
+            //创建大根堆
             for (int k = N / 2; k >= 1; k--) {
                 int temp=k;
                 sink(nums, temp, N);
             }
 
-            //���������
+            //调整大根堆
             while (N > 1) {
                 swap(nums, 1, N--);
                 sink(nums, 1, N);
@@ -290,7 +290,7 @@ public class SortBase {
     public static void main(String[] args) {
 
         Integer[] arr={3,2,4,7,6,5};
-        System.out.println("����������Ϊ��");
+        System.out.println("待排序数组为：");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i]);
         }
@@ -300,7 +300,7 @@ public class SortBase {
         Integer[] arr1=arr.clone();
         Selection selection=new Selection<>();
         selection.sort(arr1);
-        System.out.println("ѡ���������� ");
+        System.out.println("选择排序结果： ");
         for (int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i]);
         }
@@ -310,7 +310,7 @@ public class SortBase {
         Integer[] arr2=arr.clone();
         Bubble bubble=new Bubble();
         bubble.sort(arr2);
-        System.out.println("ð���������� ");
+        System.out.println("冒泡排序结果： ");
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i]);
         }
@@ -321,7 +321,7 @@ public class SortBase {
         Integer[] arr3=arr.clone();
         Insertion insertion=new Insertion<>();
         insertion.sort(arr3);
-        System.out.println("������������ ");
+        System.out.println("插入排序结果： ");
         for (int i = 0; i < arr3.length; i++) {
             System.out.print(arr3[i]);
         }
@@ -331,7 +331,7 @@ public class SortBase {
         Integer[] arr4=arr.clone();
         Shell shell=new Shell<>();
         shell.sort(arr4);
-        System.out.println("ϣ���������� ");
+        System.out.println("希尔排序结果： ");
         for (int i = 0; i < arr4.length; i++) {
             System.out.print(arr4[i]);
         }
@@ -341,7 +341,7 @@ public class SortBase {
         Integer[] arr5=arr.clone();
         Down2UpMergeSort dumerge=new Down2UpMergeSort<>();
         dumerge.sort(arr5);
-        System.out.println("�Ե������������� ");
+        System.out.println("自底向上排序结果： ");
         for (int i = 0; i < arr5.length; i++) {
             System.out.print(arr5[i]);
         }
@@ -350,7 +350,7 @@ public class SortBase {
         Integer[] arr6=arr.clone();
         Up2DownMergeSort udmerge=new Up2DownMergeSort<>();
         udmerge.sort(arr6);
-        System.out.println("�Զ����¹鲢�������� ");
+        System.out.println("自顶向下归并排序结果： ");
         for (int i = 0; i < arr6.length; i++) {
             System.out.print(arr6[i]);
         }
@@ -360,7 +360,7 @@ public class SortBase {
         Integer[] arr7=arr.clone();
         QuickSort quick=new QuickSort<>();
         quick.sort(arr7);
-        System.out.println("��������������� ");
+        System.out.println("二向快速排序结果： ");
         for (int i = 0; i < arr7.length; i++) {
             System.out.print(arr7[i]);
         }
@@ -369,7 +369,7 @@ public class SortBase {
         Integer[] arr8=arr.clone();
         ThreeWayQuickSort tquick=new ThreeWayQuickSort<>();
         tquick.sort(arr8);
-        System.out.println("��������������� ");
+        System.out.println("三向快速排序结果： ");
         for (int i = 0; i < arr8.length; i++) {
             System.out.print(arr8[i]);
         }
@@ -383,7 +383,7 @@ public class SortBase {
         }
         HeapSort heap=new HeapSort<>();
         heap.sort(arr9);
-        System.out.println("���������� ");
+        System.out.println("堆排序结果： ");
         for (int i = 1; i < arr9.length; i++) {
             System.out.print(arr9[i]);
         }

@@ -2,14 +2,14 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- Ë«Ö¸ÕëÁ·Ï°
+ åŒæŒ‡é’ˆç»ƒä¹ 
  * */
 public class DoublePointer {
     private final static HashSet<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
     /**
-     1.Á½ÊıÆ½·½ºÍ
-     ÌâÄ¿ÃèÊö£ºÅĞ¶ÏÒ»¸öÊıÊÇ·ñÎªÁ½¸öÊıµÄÆ½·½ºÍ¡£
+     1.ä¸¤æ•°å¹³æ–¹å’Œ
+     é¢˜ç›®æè¿°ï¼šåˆ¤æ–­ä¸€ä¸ªæ•°æ˜¯å¦ä¸ºä¸¤ä¸ªæ•°çš„å¹³æ–¹å’Œã€‚
      * */
     public boolean judgeSquareSum(int c) {
         int i=0;
@@ -29,15 +29,15 @@ public class DoublePointer {
 
 
     /**
-     2.·´×ª×Ö·û´®ÖĞµÄÔªÒô×Ö·û
-     Ê¹ÓÃË«Ö¸ÕëÖ¸Ïò´ı·´×ªµÄÁ½¸öÔªÒô×Ö·û£¬Ò»¸öÖ¸Õë´ÓÍ·ÏòÎ²±éÀú£¬Ò»¸öÖ¸Õë´ÓÎ²µ½Í·±éÀú¡£
-     ´ËÌâÓ¦ÓÃÁËi++µÈ²Ù×÷£¬ËùÒÔÔÚÑ­»·ÖĞĞèÒª½«È¡³öµÄÔªËØÏÈ´æ³É·½·¨¾Ö²¿±äÁ¿
+     2.åè½¬å­—ç¬¦ä¸²ä¸­çš„å…ƒéŸ³å­—ç¬¦
+     ä½¿ç”¨åŒæŒ‡é’ˆæŒ‡å‘å¾…åè½¬çš„ä¸¤ä¸ªå…ƒéŸ³å­—ç¬¦ï¼Œä¸€ä¸ªæŒ‡é’ˆä»å¤´å‘å°¾éå†ï¼Œä¸€ä¸ªæŒ‡é’ˆä»å°¾åˆ°å¤´éå†ã€‚
+     æ­¤é¢˜åº”ç”¨äº†i++ç­‰æ“ä½œï¼Œæ‰€ä»¥åœ¨å¾ªç¯ä¸­éœ€è¦å°†å–å‡ºçš„å…ƒç´ å…ˆå­˜æˆæ–¹æ³•å±€éƒ¨å˜é‡
      * */
     public String reverseVowels(String s) {
         int i = 0, j = s.length() - 1;
         char[] result = new char[s.length()];
         while (i <= j) {
-            //½«È¡³öµÄÔªËØ´æ³É¾Ö²¿±äÁ¿£¬±ÜÃâË÷Òı×ÔÔöºóµ¼ÖÂÈ¡³öµÄÔªËØ·¢Éú±ä»¯
+            //å°†å–å‡ºçš„å…ƒç´ å­˜æˆå±€éƒ¨å˜é‡ï¼Œé¿å…ç´¢å¼•è‡ªå¢åå¯¼è‡´å–å‡ºçš„å…ƒç´ å‘ç”Ÿå˜åŒ–
             char ci = s.charAt(i);
             char cj = s.charAt(j);
             if (!vowels.contains(ci)) {
@@ -55,8 +55,8 @@ public class DoublePointer {
 
 
     /**
-     3.»ØÎÄ×Ö·û´®
-     ÌâÄ¿ÃèÊö£º¿ÉÒÔÉ¾³ıÒ»¸ö×Ö·û£¬ÅĞ¶ÏÊÇ·ñÄÜ¹¹³É»ØÎÄ×Ö·û´®¡£
+     3.å›æ–‡å­—ç¬¦ä¸²
+     é¢˜ç›®æè¿°ï¼šå¯ä»¥åˆ é™¤ä¸€ä¸ªå­—ç¬¦ï¼Œåˆ¤æ–­æ˜¯å¦èƒ½æ„æˆå›æ–‡å­—ç¬¦ä¸²ã€‚
      * */
     public boolean validPalindrome(String s) {
         int i=-1;
@@ -81,9 +81,9 @@ public class DoublePointer {
 
 
     /**
-     4.¹é²¢Á½¸öÓĞĞòÊı×é
-     ÌâÄ¿ÃèÊö£º°Ñ¹é²¢½á¹û´æµ½µÚÒ»¸öÊı×éÉÏ¡£
-     ĞèÒª´ÓÎ²¿ªÊ¼±éÀú£¬·ñÔòÔÚ nums1 ÉÏ¹é²¢µÃµ½µÄÖµ»á¸²¸Ç»¹Î´½øĞĞ¹é²¢±È½ÏµÄÖµ¡£
+     4.å½’å¹¶ä¸¤ä¸ªæœ‰åºæ•°ç»„
+     é¢˜ç›®æè¿°ï¼šæŠŠå½’å¹¶ç»“æœå­˜åˆ°ç¬¬ä¸€ä¸ªæ•°ç»„ä¸Šã€‚
+     éœ€è¦ä»å°¾å¼€å§‹éå†ï¼Œå¦åˆ™åœ¨ nums1 ä¸Šå½’å¹¶å¾—åˆ°çš„å€¼ä¼šè¦†ç›–è¿˜æœªè¿›è¡Œå½’å¹¶æ¯”è¾ƒçš„å€¼ã€‚
      * */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int index1 = m - 1, index2 = n - 1;
@@ -104,8 +104,8 @@ public class DoublePointer {
 
 
     /**
-     5.ÅĞ¶ÏÁ´±íÊÇ·ñ´æÔÚ»·
-     Ê¹ÓÃË«Ö¸Õë£¬Ò»¸öÖ¸ÕëÃ¿´ÎÒÆ¶¯Ò»¸ö½Úµã£¬Ò»¸öÖ¸ÕëÃ¿´ÎÒÆ¶¯Á½¸ö½Úµã£¬Èç¹û´æÔÚ»·£¬ÄÇÃ´ÕâÁ½¸öÖ¸ÕëÒ»¶¨»áÏàÓö¡£
+     5.åˆ¤æ–­é“¾è¡¨æ˜¯å¦å­˜åœ¨ç¯
+     ä½¿ç”¨åŒæŒ‡é’ˆï¼Œä¸€ä¸ªæŒ‡é’ˆæ¯æ¬¡ç§»åŠ¨ä¸€ä¸ªèŠ‚ç‚¹ï¼Œä¸€ä¸ªæŒ‡é’ˆæ¯æ¬¡ç§»åŠ¨ä¸¤ä¸ªèŠ‚ç‚¹ï¼Œå¦‚æœå­˜åœ¨ç¯ï¼Œé‚£ä¹ˆè¿™ä¸¤ä¸ªæŒ‡é’ˆä¸€å®šä¼šç›¸é‡ã€‚
      * */
     public boolean hasCycle(ListNode head) {
         if(head==null){
@@ -126,9 +126,9 @@ public class DoublePointer {
 
 
     /**
-     6.×î³¤×ÓĞòÁĞ
-     ÌâÄ¿ÃèÊö£ºÉ¾³ı s ÖĞµÄÒ»Ğ©×Ö·û£¬Ê¹µÃËü¹¹³É×Ö·û´®ÁĞ±í d ÖĞµÄÒ»¸ö×Ö·û´®£¬ÕÒ³öÄÜ¹¹³ÉµÄ×î³¤×Ö·û´®¡£
-     Èç¹ûÓĞ¶à¸öÏàÍ¬³¤¶ÈµÄ½á¹û£¬·µ»Ø×ÖµäĞòµÄ×î´ó(×î¿¿Ç°)×Ö·û´®¡£
+     6.æœ€é•¿å­åºåˆ—
+     é¢˜ç›®æè¿°ï¼šåˆ é™¤ s ä¸­çš„ä¸€äº›å­—ç¬¦ï¼Œä½¿å¾—å®ƒæ„æˆå­—ç¬¦ä¸²åˆ—è¡¨ d ä¸­çš„ä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œæ‰¾å‡ºèƒ½æ„æˆçš„æœ€é•¿å­—ç¬¦ä¸²ã€‚
+     å¦‚æœæœ‰å¤šä¸ªç›¸åŒé•¿åº¦çš„ç»“æœï¼Œè¿”å›å­—å…¸åºçš„æœ€å¤§(æœ€é å‰)å­—ç¬¦ä¸²ã€‚
      * */
     public String findLongestWord(String s, String[] d) {
 
@@ -136,7 +136,7 @@ public class DoublePointer {
         for(String target:d) {
             int L1 = longestword.length();
             int L2 = target.length();
-            //Èç¹ûµ±Ç°×î³¤×ÓĞòÁĞÒÑ¾­±Èµ±Ç°Ä¿±ê´®³¤»òÕß³¤¶ÈÏàÍ¬µÄÇé¿öÏÂ×ÖµäĞò¸ü¿¿Ç°£¬ÔòÌø¹ı¸ÃÄ¿±ê´®
+            //å¦‚æœå½“å‰æœ€é•¿å­åºåˆ—å·²ç»æ¯”å½“å‰ç›®æ ‡ä¸²é•¿æˆ–è€…é•¿åº¦ç›¸åŒçš„æƒ…å†µä¸‹å­—å…¸åºæ›´é å‰ï¼Œåˆ™è·³è¿‡è¯¥ç›®æ ‡ä¸²
             if(L1>L2||(L1==L2&&longestword.compareTo(target)<0)){
                 continue;
             }
@@ -164,26 +164,26 @@ public class DoublePointer {
     public static void main(String[] args) {
         DoublePointer dp=new DoublePointer();
 
-        //µÚÒ»Ìâ
-        System.out.println("Á½ÊıÆ½·½ºÍ£º "+dp.judgeSquareSum(6));
+        //ç¬¬ä¸€é¢˜
+        System.out.println("ä¸¤æ•°å¹³æ–¹å’Œï¼š "+dp.judgeSquareSum(6));
 
-        //µÚ¶şÌâ
-        System.out.println("·´×ª×Ö·û´®ÖĞµÄÔªÒô×Ö·û£º "+dp.reverseVowels("leetcode"));
+        //ç¬¬äºŒé¢˜
+        System.out.println("åè½¬å­—ç¬¦ä¸²ä¸­çš„å…ƒéŸ³å­—ç¬¦ï¼š "+dp.reverseVowels("leetcode"));
 
-        //µÚÈıÌâ
-        System.out.println("»ØÎÄ×Ö·û´®±äÖÖ£º "+dp.validPalindrome("abca"));
+        //ç¬¬ä¸‰é¢˜
+        System.out.println("å›æ–‡å­—ç¬¦ä¸²å˜ç§ï¼š "+dp.validPalindrome("abca"));
 
-        //µÚËÄÌâ
+        //ç¬¬å››é¢˜
         int[] num1={1,2,3,0,0,0};
         int[] num2={2,5,6};
         dp.merge(num1,3,num2,3);
-        System.out.print("¹é²¢ÓĞĞòÊı×é£º ");
+        System.out.print("å½’å¹¶æœ‰åºæ•°ç»„ï¼š ");
         for (int i = 0; i < num1.length; i++) {
           System.out.print(num1[i]+" ");
         }
         System.out.println();
 
-        //µÚÎåÌâ
+        //ç¬¬äº”é¢˜
         ListNode l1=new ListNode(1);
         ListNode l2=new ListNode(2);
         ListNode l3=new ListNode(3);
@@ -194,12 +194,12 @@ public class DoublePointer {
         l3.next=l4;
         l4.next=l5;
         l5.next=l3;
-        System.out.println("Á´±íÊÇ·ñÓĞ»·£º "+dp.hasCycle(l1));
+        System.out.println("é“¾è¡¨æ˜¯å¦æœ‰ç¯ï¼š "+dp.hasCycle(l1));
 
-        //µÚÁùÌâ
+        //ç¬¬å…­é¢˜
         String s="abpcplea";
         String[] d={"ale","apple","monkey","plea"};
-        System.out.println("×î³¤×ÓĞòÁĞ£º "+dp.findLongestWord(s,d));
+        System.out.println("æœ€é•¿å­åºåˆ—ï¼š "+dp.findLongestWord(s,d));
     }
 
 }

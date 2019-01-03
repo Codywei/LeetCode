@@ -3,15 +3,15 @@ import java.util.Arrays;
 import static java.lang.Integer.MAX_VALUE;
 
 /**
- ¶¯Ì¬¹æ»®
+ åŠ¨æ€è§„åˆ’
  * */
 public class DynamicPlanning {
 
     /**
-     1.Ç¿µÁÇÀ½Ù
-     ÌâÄ¿ÃèÊö£ºÇÀ½ÙÒ»ÅÅ×¡»§£¬µ«ÊÇ²»ÄÜÇÀÁÚ½üµÄ×¡»§£¬Çó×î´óÇÀ½ÙÁ¿¡£
-     ¶¨Òå dp Êı×éÓÃÀ´´æ´¢×î´óµÄÇÀ½ÙÁ¿£¬ÆäÖĞ dp[i] ±íÊ¾ÇÀµ½µÚ i ¸ö×¡»§Ê±µÄ×î´óÇÀ½ÙÁ¿¡£
-     ÓÉÓÚ²»ÄÜÇÀ½ÙÁÚ½ü×¡»§£¬Èç¹ûÇÀ½ÙÁËµÚ i -1 ¸ö×¡»§£¬ÄÇÃ´¾Í²»ÄÜÔÙÇÀ½ÙµÚ i ¸ö×¡»§£¬ËùÒÔ
+     1.å¼ºç›—æŠ¢åŠ«
+     é¢˜ç›®æè¿°ï¼šæŠ¢åŠ«ä¸€æ’ä½æˆ·ï¼Œä½†æ˜¯ä¸èƒ½æŠ¢é‚»è¿‘çš„ä½æˆ·ï¼Œæ±‚æœ€å¤§æŠ¢åŠ«é‡ã€‚
+     å®šä¹‰ dp æ•°ç»„ç”¨æ¥å­˜å‚¨æœ€å¤§çš„æŠ¢åŠ«é‡ï¼Œå…¶ä¸­ dp[i] è¡¨ç¤ºæŠ¢åˆ°ç¬¬ i ä¸ªä½æˆ·æ—¶çš„æœ€å¤§æŠ¢åŠ«é‡ã€‚
+     ç”±äºä¸èƒ½æŠ¢åŠ«é‚»è¿‘ä½æˆ·ï¼Œå¦‚æœæŠ¢åŠ«äº†ç¬¬ i -1 ä¸ªä½æˆ·ï¼Œé‚£ä¹ˆå°±ä¸èƒ½å†æŠ¢åŠ«ç¬¬ i ä¸ªä½æˆ·ï¼Œæ‰€ä»¥
      dp[i]=max(dp[i-2]+nums[i],dp[i-1])
      * */
     public int rob(int[] nums) {
@@ -25,7 +25,7 @@ public class DynamicPlanning {
     }
 
     /**
-     2.¾ØÕóµÄ×îĞ¡Â·¾¶ºÍ
+     2.çŸ©é˜µçš„æœ€å°è·¯å¾„å’Œ
      * */
     public int minPathSum(int[][] grid) {
         if (grid.length == 0 || grid[0].length == 0) {
@@ -45,7 +45,7 @@ public class DynamicPlanning {
 
 
     /**
-     3.¾ØÕóµÄ×ÜÂ·¾¶Êı
+     3.çŸ©é˜µçš„æ€»è·¯å¾„æ•°
      * */
     public int uniquePaths(int m, int n) {
         int[] dp = new int[n];
@@ -62,15 +62,15 @@ public class DynamicPlanning {
     public static void main(String[] args) {
         DynamicPlanning dp=new DynamicPlanning();
 
-        //µÚÒ»Ìâ
+        //ç¬¬ä¸€é¢˜
         int arrays[]={2,3,4,0,2};
-        System.out.println("Ç¿µÁ×î¶àÄÜÇÀ¶àÉÙ£º "+dp.rob(arrays));
+        System.out.println("å¼ºç›—æœ€å¤šèƒ½æŠ¢å¤šå°‘ï¼š "+dp.rob(arrays));
 
-        //µÚ¶şÌâ
+        //ç¬¬äºŒé¢˜
         int[][]arrays2={{1,3,1},{1,5,1},{4,2,1}};
-        System.out.println("¾ØÕóµÄ×îĞ¡Â·¾¶ºÍ£º "+dp.minPathSum(arrays2));
+        System.out.println("çŸ©é˜µçš„æœ€å°è·¯å¾„å’Œï¼š "+dp.minPathSum(arrays2));
 
-        //µÚÈıÌâ
-        System.out.println("¾ØÕóµÄ×ÜÂ·¾¶ÊıÊÇ£º "+dp.uniquePaths(5,4));
+        //ç¬¬ä¸‰é¢˜
+        System.out.println("çŸ©é˜µçš„æ€»è·¯å¾„æ•°æ˜¯ï¼š "+dp.uniquePaths(5,4));
     }
 }

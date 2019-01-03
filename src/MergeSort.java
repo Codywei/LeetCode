@@ -8,7 +8,7 @@ public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
         int i = l, j = m + 1;
 
         for (int k = l; k <= h; k++) {
-            // 将数据复制到辅助数组
+            // 灏嗘暟鎹鍒跺埌杈呭姪鏁扮粍
             aux[k] = nums[k];
         }
 
@@ -20,7 +20,7 @@ public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
                 nums[k] = aux[i++];
 
             } else if (aux[i].compareTo(nums[j]) <= 0) {
-                // 先进行这一步，保证排序稳定性（保持相等元素先后顺序和未排序之前一致）
+                // 鍏堣繘琛岃繖涓�姝ワ紝淇濊瘉鎺掑簭绋冲畾鎬э紙淇濇寔鐩哥瓑鍏冪礌鍏堝悗椤哄簭鍜屾湭鎺掑簭涔嬪墠涓�鑷达級
                 nums[k] = aux[i++];
 
             } else {

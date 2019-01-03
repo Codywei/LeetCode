@@ -1,5 +1,5 @@
 /**
- ×Ö·û´®Á·Ï°
+ å­—ç¬¦ä¸²ç»ƒä¹ 
  **/
 public class StringPractice {
 }

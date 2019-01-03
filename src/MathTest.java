@@ -1,9 +1,9 @@
 /**
- 数学练习
+ 鏁板缁冧範
  * */
 
 public class MathTest {
     public static void main(String[] args) {
-        System.out.println("测试数据");
+        System.out.println("娴嬭瘯鏁版嵁");
     }
 }

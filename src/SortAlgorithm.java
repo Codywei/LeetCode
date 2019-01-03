@@ -1,17 +1,17 @@
 import java.util.*;
 
 /**
- ÅÅĞòÁ·Ï°Ìâ
+ æ’åºç»ƒä¹ é¢˜
  * */
 
 public class SortAlgorithm {
     /**
-    1. Êı×éÖĞµÚK´óÔªËØ
-     ÌâÄ¿ÃèÊö£ºÕÒµ½µÚ k ´óµÄÔªËØ¡£
+    1. æ•°ç»„ä¸­ç¬¬Kå¤§å…ƒç´ 
+     é¢˜ç›®æè¿°ï¼šæ‰¾åˆ°ç¬¬ k å¤§çš„å…ƒç´ ã€‚
      * */
 
     /**
-     ÅÅĞò£ºÊ±¼ä¸´ÔÓ¶È O(NlogN)£¬¿Õ¼ä¸´ÔÓ¶È O(1)
+     æ’åºï¼šæ—¶é—´å¤æ‚åº¦ O(NlogN)ï¼Œç©ºé—´å¤æ‚åº¦ O(1)
      */
     public int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
@@ -19,14 +19,14 @@ public class SortAlgorithm {
     }
 
     /**
-     ¶ÑÅÅĞò£ºÊ±¼ä¸´ÔÓ¶È O(NlogK)£¬¿Õ¼ä¸´ÔÓ¶È O(K)¡£
+     å †æ’åºï¼šæ—¶é—´å¤æ‚åº¦ O(NlogK)ï¼Œç©ºé—´å¤æ‚åº¦ O(K)ã€‚
      * */
     public int findKthLargest2(int[] nums, int k) {
-        // Ğ¡¶¥¶Ñ
+        // å°é¡¶å †
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int val : nums) {
             pq.add(val);
-            // Î¬»¤¶ÑµÄ´óĞ¡Îª K
+            // ç»´æŠ¤å †çš„å¤§å°ä¸º K
             if (pq.size() > k) {
                 pq.poll();
             }
@@ -35,7 +35,7 @@ public class SortAlgorithm {
     }
 
     /**
-     ¿ìËÙÑ¡Ôñ £ºÊ±¼ä¸´ÔÓ¶È O(N)£¬¿Õ¼ä¸´ÔÓ¶È O(1)
+     å¿«é€Ÿé€‰æ‹© ï¼šæ—¶é—´å¤æ‚åº¦ O(N)ï¼Œç©ºé—´å¤æ‚åº¦ O(1)
      */
     public int findKthLargest3(int[] nums, int k) {
         k = nums.length - k;
@@ -72,13 +72,13 @@ public class SortAlgorithm {
 
 
    /**
-    2.Í°ÅÅĞòÁ½Ìâ
+    2.æ¡¶æ’åºä¸¤é¢˜
     * */
 
    /**
-    ³öÏÖÆµÂÊ×î¶àµÄ k ¸öÊı
-    ½âÌâË¼Â·£ºÉèÖÃÈô¸É¸öÍ°£¬Ã¿¸öÍ°´æ´¢³öÏÖÆµÂÊÏàÍ¬µÄÊı£¬²¢ÇÒÍ°µÄÏÂ±ê´ú±íÍ°ÖĞÊı³öÏÖµÄÆµÂÊ£¬¼´µÚ i ¸öÍ°ÖĞ´æ´¢µÄÊı³öÏÖµÄÆµÂÊÎª i¡£
-    °ÑÊı¶¼·Åµ½Í°Ö®ºó£¬´ÓºóÏòÇ°±éÀúÍ°£¬×îÏÈµÃµ½µÄ k ¸öÊı¾ÍÊÇ³öÏÖÆµÂÊ×î¶àµÄµÄ k ¸öÊı¡£
+    å‡ºç°é¢‘ç‡æœ€å¤šçš„ k ä¸ªæ•°
+    è§£é¢˜æ€è·¯ï¼šè®¾ç½®è‹¥å¹²ä¸ªæ¡¶ï¼Œæ¯ä¸ªæ¡¶å­˜å‚¨å‡ºç°é¢‘ç‡ç›¸åŒçš„æ•°ï¼Œå¹¶ä¸”æ¡¶çš„ä¸‹æ ‡ä»£è¡¨æ¡¶ä¸­æ•°å‡ºç°çš„é¢‘ç‡ï¼Œå³ç¬¬ i ä¸ªæ¡¶ä¸­å­˜å‚¨çš„æ•°å‡ºç°çš„é¢‘ç‡ä¸º iã€‚
+    æŠŠæ•°éƒ½æ”¾åˆ°æ¡¶ä¹‹åï¼Œä»åå‘å‰éå†æ¡¶ï¼Œæœ€å…ˆå¾—åˆ°çš„ k ä¸ªæ•°å°±æ˜¯å‡ºç°é¢‘ç‡æœ€å¤šçš„çš„ k ä¸ªæ•°ã€‚
     * */
     public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> frequencyForNum = new HashMap<>();
@@ -104,7 +104,7 @@ public class SortAlgorithm {
 
 
     /**
-     °´ÕÕ×Ö·û³öÏÖ´ÎÊı¶Ô×Ö·û´®ÅÅĞò
+     æŒ‰ç…§å­—ç¬¦å‡ºç°æ¬¡æ•°å¯¹å­—ç¬¦ä¸²æ’åº
      * */
     public String frequencySort(String s) {
         Map<Character,Integer> frequencynum=new HashMap<>();
@@ -137,10 +137,10 @@ public class SortAlgorithm {
 
 
     /**
-     3.ºÉÀ¼¹úÆìÎÊÌâ
-     ºÉÀ¼¹úÆì°üº¬ÈıÖÖÑÕÉ«£ººì¡¢°×¡¢À¶¡£
-     ÓĞÈıÖÖÑÕÉ«µÄÇò£¬Ëã·¨µÄÄ¿±êÊÇ½«ÕâÈıÖÖÇò°´ÑÕÉ«Ë³ĞòÕıÈ·µØÅÅÁĞ¡£
-     ËüÆäÊµÊÇÈıÏòÇĞ·Ö¿ìËÙÅÅĞòµÄÒ»ÖÖ±äÖÖ£¬ÔÚÈıÏòÇĞ·Ö¿ìËÙÅÅĞòÖĞ£¬Ã¿´ÎÇĞ·Ö¶¼½«Êı×é·Ö³ÉÈı¸öÇø¼ä£ºĞ¡ÓÚÇĞ·ÖÔªËØ¡¢µÈÓÚÇĞ·ÖÔªËØ¡¢´óÓÚÇĞ·ÖÔªËØ£¬¶ø¸ÃËã·¨ÊÇ½«Êı×é·Ö³ÉÈı¸öÇø¼ä£ºµÈÓÚºìÉ«¡¢µÈÓÚ°×É«¡¢µÈÓÚÀ¶É«¡£
+     3.è·å…°å›½æ——é—®é¢˜
+     è·å…°å›½æ——åŒ…å«ä¸‰ç§é¢œè‰²ï¼šçº¢ã€ç™½ã€è“ã€‚
+     æœ‰ä¸‰ç§é¢œè‰²çš„çƒï¼Œç®—æ³•çš„ç›®æ ‡æ˜¯å°†è¿™ä¸‰ç§çƒæŒ‰é¢œè‰²é¡ºåºæ­£ç¡®åœ°æ’åˆ—ã€‚
+     å®ƒå…¶å®æ˜¯ä¸‰å‘åˆ‡åˆ†å¿«é€Ÿæ’åºçš„ä¸€ç§å˜ç§ï¼Œåœ¨ä¸‰å‘åˆ‡åˆ†å¿«é€Ÿæ’åºä¸­ï¼Œæ¯æ¬¡åˆ‡åˆ†éƒ½å°†æ•°ç»„åˆ†æˆä¸‰ä¸ªåŒºé—´ï¼šå°äºåˆ‡åˆ†å…ƒç´ ã€ç­‰äºåˆ‡åˆ†å…ƒç´ ã€å¤§äºåˆ‡åˆ†å…ƒç´ ï¼Œè€Œè¯¥ç®—æ³•æ˜¯å°†æ•°ç»„åˆ†æˆä¸‰ä¸ªåŒºé—´ï¼šç­‰äºçº¢è‰²ã€ç­‰äºç™½è‰²ã€ç­‰äºè“è‰²ã€‚
      * */
     public void sortColors(int[] nums) {
         int zero=-1,one=0,two=nums.length;
@@ -167,17 +167,17 @@ public class SortAlgorithm {
     public static void main(String[] args) {
         SortAlgorithm sa=new SortAlgorithm();
 
-        //µÚÒ»Ìâ
+        //ç¬¬ä¸€é¢˜
         int[] array={1,2,3,5,4,6,7};
-        System.out.println("ÈıÖÖÅÅĞòËã·¨µÄ½á¹û£º "+sa.findKthLargest(array,2)+" "+sa.findKthLargest2(array,2)+" "+sa.findKthLargest3(array,2));
+        System.out.println("ä¸‰ç§æ’åºç®—æ³•çš„ç»“æœï¼š "+sa.findKthLargest(array,2)+" "+sa.findKthLargest2(array,2)+" "+sa.findKthLargest3(array,2));
 
-        //µÚ¶şÌâ
+        //ç¬¬äºŒé¢˜
         int[] array2={1,1,1,2,2,3};
         String str="tree";
-        System.out.println("³öÏÖÆµÂÊ×î¶àµÄK¸öÊı£º "+sa.topKFrequent(array2,2));
-        System.out.println("°´×Ö·û³öÏÖ´ÎÊıµÄ×Ö·û´®ÅÅĞò£º "+sa.frequencySort(str));
+        System.out.println("å‡ºç°é¢‘ç‡æœ€å¤šçš„Kä¸ªæ•°ï¼š "+sa.topKFrequent(array2,2));
+        System.out.println("æŒ‰å­—ç¬¦å‡ºç°æ¬¡æ•°çš„å­—ç¬¦ä¸²æ’åºï¼š "+sa.frequencySort(str));
 
-        //µÚÈıÌâ
+        //ç¬¬ä¸‰é¢˜
         int[] array3={2,0,2,1,1,0};
         sa.sortColors(array3);
         for (int i = 0; i < array3.length; i++) {
