@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
 /**
- Êý×éºÍ¾ØÕóÁ·Ï°
+ æ•°ç»„å’ŒçŸ©é˜µç»ƒä¹ 
  * */
 public class ArrayandMatrix {
     /**
-     1.°ÑÊý×éÖÐµÄ0ÒÆµ½Ä©Î²
+     1.æŠŠæ•°ç»„ä¸­çš„0ç§»åˆ°æœ«å°¾
      * */
     public void moveZeroes(int[] nums) {
         int idx = 0;
@@ -22,10 +22,10 @@ public class ArrayandMatrix {
     public static void main(String[] args) {
         ArrayandMatrix am=new ArrayandMatrix();
 
-        //µÚÒ»Ìâ
+        //ç¬¬ä¸€é¢˜
         int[] array={0,1,0,3,12};
         am.moveZeroes(array);
-        System.out.print("°ÑÊý×éÖÐµÄ0ÒÆµ½Ä©Î²£º ");
+        System.out.print("æŠŠæ•°ç»„ä¸­çš„0ç§»åˆ°æœ«å°¾ï¼š ");
         Arrays.stream(array).forEach((result)->System.out.print(result+" "));
     }
 
