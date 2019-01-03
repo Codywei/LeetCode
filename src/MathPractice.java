@@ -1,5 +1,5 @@
 /**
-ÊýÑ§Á·Ï°
- **/
+ æ•°å­¦ç»ƒä¹ 
+ * */
 public class MathPractice {
 }
