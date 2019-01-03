@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicPlanning.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DynamicPlanning.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -74,13 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GreedyStrategy.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GreedyStrategy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <marker date="1546494261995" expanded="true" signature="5249:5281" ph="{...}" />
+                <marker date="1546505393308" expanded="true" signature="5250:5282" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -153,7 +153,6 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathReview.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
@@ -166,6 +165,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java" />
       </list>
     </option>
   </component>
@@ -472,14 +472,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="8860000" />
-    </task>
-    <task id="LOCAL-00011" summary=" 双指针练习">
-      <created>1545974689488</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1545974689488</updated>
+      <workItem from="1546494639522" duration="8882000" />
     </task>
     <task id="LOCAL-00012" summary=" 贪心策略">
       <created>1545981404528</created>
@@ -817,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546505360601</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary=" 动态规划">
+      <created>1546505386427</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505386427</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77309000" />
+    <option name="totallyTimeSpent" value="77331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -867,7 +867,6 @@
     <MESSAGE value=" 哈希练习" />
     <MESSAGE value=" 链表练习" />
     <MESSAGE value=" 树练习" />
-    <MESSAGE value=" 动态规划" />
     <MESSAGE value="基本算法一览" />
     <MESSAGE value="readme" />
     <MESSAGE value=" 排序练习题" />
@@ -888,7 +887,8 @@
     <MESSAGE value=" 数学练习" />
     <MESSAGE value=" 位运算练习" />
     <MESSAGE value=" 双指针练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 双指针练习" />
+    <MESSAGE value=" 动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 动态规划" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1265,16 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <marker date="1546494261995" expanded="true" signature="5249:5281" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1323,6 +1313,16 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
           <folding>
             <marker date="1546505371553" expanded="true" signature="1784:1814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1546505393308" expanded="true" signature="5250:5282" ph="{...}" />
           </folding>
         </state>
       </provider>

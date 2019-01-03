@@ -6,6 +6,7 @@ import java.util.List;
 /**
  贪心策略
  * */
+
 public class GreedyStrategy {
     /**
      1.分配糖果
