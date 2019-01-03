@@ -79,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -89,12 +89,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashPractice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
+      <file leaf-file-name="SortAlgorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="80">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <marker date="1546505477751" expanded="true" signature="21:26" ph="/**...*/" />
+                <marker date="1546505477751" expanded="true" signature="4597:4776" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +159,6 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathReview.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/StackandQueue.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/TreeNode.java" />
@@ -169,6 +171,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -475,14 +478,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="8936000" />
-    </task>
-    <task id="LOCAL-00014" summary=" 数组和矩阵练习">
-      <created>1546132664085</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1546132664085</updated>
+      <workItem from="1546494639522" duration="8966000" />
     </task>
     <task id="LOCAL-00015" summary=" 图练习">
       <created>1546132707983</created>
@@ -820,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546505441723</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary=" Sort抽象类">
+      <created>1546505463481</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505463481</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77385000" />
+    <option name="totallyTimeSpent" value="77415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -866,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 链表练习" />
     <MESSAGE value=" 树练习" />
     <MESSAGE value="基本算法一览" />
     <MESSAGE value="readme" />
@@ -891,7 +893,8 @@
     <MESSAGE value=" 动态规划" />
     <MESSAGE value=" 贪心策略" />
     <MESSAGE value=" 搜索策略" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 搜索策略" />
+    <MESSAGE value=" Sort抽象类" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Sort抽象类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,8 +949,8 @@
         <state relative-caret-position="110">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1546494389009" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546494389009" expanded="true" signature="4598:4777" ph="{...}" />
+            <marker date="1546505477751" expanded="true" signature="21:26" ph="/**...*/" />
+            <marker date="1546505477751" expanded="true" signature="4597:4776" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1034,8 +1037,8 @@
         <state relative-caret-position="110">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1546494389009" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546494389009" expanded="true" signature="4598:4777" ph="{...}" />
+            <marker date="1546505477751" expanded="true" signature="21:26" ph="/**...*/" />
+            <marker date="1546505477751" expanded="true" signature="4597:4776" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1206,17 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1546494389009" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546494389009" expanded="true" signature="4598:4777" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1327,6 +1319,17 @@
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <marker date="1546505477751" expanded="true" signature="21:26" ph="/**...*/" />
+            <marker date="1546505477751" expanded="true" signature="4597:4776" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
