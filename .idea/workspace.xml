@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LeetCode/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/ListNode.java" afterPath="$PROJECT_DIR$/../LeetCode/src/ListNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +20,12 @@
       <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="100">
               <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-                <marker date="1546415497999" expanded="true" signature="11361:11498" ph="{...}" />
+                <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -34,9 +34,11 @@
       <file leaf-file-name="StackandQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+              <folding>
+                <marker date="1546133376843" expanded="true" signature="0:17" ph="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,21 +46,24 @@
       <file leaf-file-name="TreePractice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="20">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="4" />
+              <folding>
+                <marker date="1546133427384" expanded="true" signature="0:14" ph="/**...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayandMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java">
+      <file leaf-file-name="SearchStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="1369">
+              <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding>
-                <marker date="1546398556935" expanded="true" signature="26:31" ph="/**...*/" />
-                <marker date="1546398556935" expanded="true" signature="599:687" ph="{...}" />
+                <element signature="imports" expanded="true" />
+                <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
+                <marker date="1546064010567" expanded="true" signature="6298:6426" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,35 +72,25 @@
       <file leaf-file-name="StringPractice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/StringPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchStrategy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4466">
-              <caret line="208" column="86" lean-forward="false" selection-start-line="208" selection-start-column="38" selection-end-line="208" selection-end-column="86" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
-                <marker date="1546064010567" expanded="true" signature="6739:6867" ph="{...}" />
+                <marker date="1546138033228" expanded="true" signature="0:15" ph="/**...*/" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1546415372152" expanded="true" signature="0:5" ph="/**...*/" />
-                <marker date="1546415372152" expanded="true" signature="1899:1928" ph="{...}" />
+                <marker date="1545878235793" expanded="true" signature="0:171" ph="/**...*/" />
+                <marker date="1545878235793" expanded="false" signature="305:316" ph=" { " />
+                <marker date="1545878235793" expanded="false" signature="342:348" ph=" }" />
+                <marker date="1545878235793" expanded="true" signature="395:461" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,34 +99,42 @@
       <file leaf-file-name="SortAlgorithm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="20">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <marker date="1546415471067" expanded="true" signature="21:26" ph="/**...*/" />
-                <marker date="1546415471067" expanded="true" signature="4834:5013" ph="{...}" />
+                <marker date="1546415471067" expanded="true" signature="4598:4777" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagramPractice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
+      <file leaf-file-name="MathPractice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="100">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashPractice.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicPlanning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,8 +164,6 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/StackandQueue.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" />
@@ -175,6 +176,9 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/ListNode.java" />
       </list>
     </option>
   </component>
@@ -233,6 +237,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -245,49 +251,22 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springBoot-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode/src/MathPractice.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashPractice">
+  <component name="RunManager" selected="Application.ListPractice">
     <configuration name="ArrayandMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArrayandMatrix" />
@@ -368,9 +347,9 @@
       <module name="LeetCode" />
       <envs />
     </configuration>
-    <configuration name="SortBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SortBase" />
+      <option name="MAIN_CLASS_NAME" value="ListPractice" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LeetCode" />
@@ -463,19 +442,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SortBase" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ArrayandMatrix" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BitOperation" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DiagramPractice" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HashPractice" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayandMatrix" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BitOperation" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DiagramPractice" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HashPractice" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListPractice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HashPractice" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DiagramPractice" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BitOperation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ArrayandMatrix" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SortBase" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListPractice" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HashPractice" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DiagramPractice" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BitOperation" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayandMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -500,7 +479,8 @@
       <workItem from="1545788805867" duration="53021000" />
       <workItem from="1546408592516" duration="6233000" />
       <workItem from="1546420290074" duration="95000" />
-      <workItem from="1546479292596" duration="83000" />
+      <workItem from="1546479292596" duration="1767000" />
+      <workItem from="1546481626891" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -726,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546416902096</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Hash练习">
+      <created>1546479390428</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1546479390428</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59432000" />
+    <option name="totallyTimeSpent" value="61492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -744,11 +731,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20130576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095756255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18550107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -795,7 +782,8 @@
     <MESSAGE value=" 排序练习题" />
     <MESSAGE value=" 基本的排序算法一览" />
     <MESSAGE value="图练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="图练习" />
+    <MESSAGE value="Hash练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,7 +799,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-            <marker date="1546415497999" expanded="true" signature="11361:11498" ph="{...}" />
+            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -820,7 +808,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1546133376843" expanded="true" signature="0:17" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +818,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1546133427384" expanded="true" signature="0:14" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,10 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1546398556935" expanded="true" signature="26:31" ph="/**...*/" />
-            <marker date="1546398556935" expanded="true" signature="599:687" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,7 +835,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1546138033228" expanded="true" signature="0:15" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,7 +848,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
-            <marker date="1546064010567" expanded="true" signature="6739:6867" ph="{...}" />
+            <marker date="1546064010567" expanded="true" signature="6298:6426" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -867,10 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
-          <folding>
-            <marker date="1546415372152" expanded="true" signature="0:5" ph="/**...*/" />
-            <marker date="1546415372152" expanded="true" signature="1899:1928" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,7 +866,7 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <marker date="1546415471067" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546415471067" expanded="true" signature="4834:5013" ph="{...}" />
+            <marker date="1546415471067" expanded="true" signature="4598:4777" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -889,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,7 +892,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-            <marker date="1546415497999" expanded="true" signature="11361:11498" ph="{...}" />
+            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -919,7 +901,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
-          <folding />
+          <folding>
+            <marker date="1546133376843" expanded="true" signature="0:17" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +911,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1546133427384" expanded="true" signature="0:14" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -935,10 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1546398556935" expanded="true" signature="26:31" ph="/**...*/" />
-            <marker date="1546398556935" expanded="true" signature="599:687" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +928,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1546138033228" expanded="true" signature="0:15" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,7 +941,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
-            <marker date="1546064010567" expanded="true" signature="6739:6867" ph="{...}" />
+            <marker date="1546064010567" expanded="true" signature="6298:6426" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -966,10 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
-          <folding>
-            <marker date="1546415372152" expanded="true" signature="0:5" ph="/**...*/" />
-            <marker date="1546415372152" expanded="true" signature="1899:1928" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -979,7 +959,7 @@
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <marker date="1546415471067" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546415471067" expanded="true" signature="4834:5013" ph="{...}" />
+            <marker date="1546415471067" expanded="true" signature="4598:4777" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -988,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,9 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,7 +985,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-            <marker date="1546415497999" expanded="true" signature="11361:11498" ph="{...}" />
+            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1025,7 +1001,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1546133376843" expanded="true" signature="0:17" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,7 +1011,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1546133427384" expanded="true" signature="0:14" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,10 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1546398556935" expanded="true" signature="26:31" ph="/**...*/" />
-            <marker date="1546398556935" expanded="true" signature="599:687" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,7 +1028,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1546138033228" expanded="true" signature="0:15" ph="/**...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,7 +1041,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
-            <marker date="1546064010567" expanded="true" signature="6739:6867" ph="{...}" />
+            <marker date="1546064010567" expanded="true" signature="6298:6426" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1072,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,121 +1064,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1546415372152" expanded="true" signature="0:5" ph="/**...*/" />
-            <marker date="1546415372152" expanded="true" signature="1899:1928" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/judgeSquareSum.java" />
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/javafx-src.zip!/javafx/util/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-707">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4466">
-          <caret line="208" column="86" lean-forward="false" selection-start-line="208" selection-start-column="38" selection-end-line="208" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
-            <marker date="1546064010567" expanded="true" signature="6739:6867" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/StringPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1546398556935" expanded="true" signature="26:31" ph="/**...*/" />
-            <marker date="1546398556935" expanded="true" signature="599:687" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,55 +1085,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="1" />
-          <folding>
-            <marker date="1546415372152" expanded="true" signature="0:5" ph="/**...*/" />
-            <marker date="1546415372152" expanded="true" signature="1899:1928" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1546415471067" expanded="true" signature="21:26" ph="/**...*/" />
-            <marker date="1546415471067" expanded="true" signature="4834:5013" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-            <marker date="1546415497999" expanded="true" signature="11361:11498" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="22">
           <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="-209">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="4" />
+          <folding>
+            <marker date="1546133427384" expanded="true" signature="0:14" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/StringPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <marker date="1546138033228" expanded="true" signature="0:15" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+          <folding>
+            <marker date="1546133376843" expanded="true" signature="0:17" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
+            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1546415471067" expanded="true" signature="21:26" ph="/**...*/" />
+            <marker date="1546415471067" expanded="true" signature="4598:4777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1545878235793" expanded="true" signature="0:171" ph="/**...*/" />
+            <marker date="1545878235793" expanded="false" signature="305:316" ph=" { " />
+            <marker date="1545878235793" expanded="false" signature="342:348" ph=" }" />
+            <marker date="1545878235793" expanded="true" signature="395:461" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1546064010567" expanded="true" signature="131:136" ph="/**...*/" />
+            <marker date="1546064010567" expanded="true" signature="6298:6426" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
