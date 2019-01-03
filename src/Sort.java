@@ -5,6 +5,7 @@
  研究排序算法的成本模型时，计算的是比较和交换的次数。
  使用辅助函数 less() 和 swap() 来进行比较和交换的操作，使得代码的可读性和可移植性更好。
  * */
+
 public abstract class Sort<T extends Comparable<T>> {
 
     public abstract void sort(T[] nums);

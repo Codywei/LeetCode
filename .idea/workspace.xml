@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/SortBase.java" afterPath="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/Sort.java" afterPath="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -96,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -157,7 +157,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../LeetCode/src/judgeSquareSum.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
         <option value="$PROJECT_DIR$/../LeetCode/README.md" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
@@ -179,6 +178,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
       </list>
     </option>
   </component>
@@ -485,14 +485,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="9010000" />
-    </task>
-    <task id="LOCAL-00016" summary=" 位运算练习">
-      <created>1546132751341</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1546132751341</updated>
+      <workItem from="1546494639522" duration="9061000" />
     </task>
     <task id="LOCAL-00017" summary=" 动态规划">
       <created>1546132933811</created>
@@ -830,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546505493124</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary=" 基本的排序算法一览">
+      <created>1546505522770</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505522770</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77459000" />
+    <option name="totallyTimeSpent" value="77510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1309,14 +1309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1337,6 +1329,14 @@
             <marker date="1546505505223" expanded="true" signature="79:84" ph="/**...*/" />
             <marker date="1546505505223" expanded="true" signature="10534:10671" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
