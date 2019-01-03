@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
-    </list>
+    <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,16 +22,6 @@
                 <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
                 <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackandQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -96,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListPractice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListPractice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashPractice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -164,8 +161,8 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/ListNode.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/ListPractice.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/ListNode.java" />
       </list>
     </option>
   </component>
@@ -469,7 +466,7 @@
       <workItem from="1546479292596" duration="1767000" />
       <workItem from="1546481626891" duration="463000" />
       <workItem from="1546482175096" duration="91000" />
-      <workItem from="1546482424975" duration="393000" />
+      <workItem from="1546482424975" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -730,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546482786153</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="链表练习">
+      <created>1546482832327</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1546482832327</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62063000" />
+    <option name="totallyTimeSpent" value="62150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -776,7 +780,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" ListNode节点定义" />
     <MESSAGE value="双指针6题" />
     <MESSAGE value=" 排序抽象类" />
     <MESSAGE value=" 归并排序抽象类" />
@@ -801,7 +804,8 @@
     <MESSAGE value="图练习" />
     <MESSAGE value="Hash练习" />
     <MESSAGE value=" 链表节点定义" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 链表节点定义" />
+    <MESSAGE value="链表练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1115,13 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1142,18 +1139,6 @@
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
-            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1220,18 +1205,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/HashPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1546415497999" expanded="true" signature="79:84" ph="/**...*/" />
+            <marker date="1546415497999" expanded="true" signature="10535:10672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
