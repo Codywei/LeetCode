@@ -29,7 +29,7 @@ public class ListPractice {
         n3.next=n4;
         n4.next=n5;
         ListNode head=lp.deleteDuplicates(n1);
-        System.out.print("从有序链表中删除重复节点");
+        System.out.print("从有序链表中删除重复节点： ");
         while(head!=null){
             System.out.print(head.val+" ");
             head=head.next;
