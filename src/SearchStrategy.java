@@ -8,6 +8,7 @@ import java.util.Queue;
 /**
  搜索策略
  * */
+
 public class SearchStrategy {
     /**
      1.给表达式加符号（插一道分治的题）
