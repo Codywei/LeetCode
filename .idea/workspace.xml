@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" afterPath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" afterPath="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -99,13 +98,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublePointer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DoublePointer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
               <folding>
-                <marker date="1546494103230" expanded="true" signature="5061:5095" ph="{...}" />
+                <marker date="1546505348876" expanded="true" signature="5062:5096" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -148,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/../LeetCode/src/judgeSquareSum.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
         <option value="$PROJECT_DIR$/../LeetCode/README.md" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
@@ -169,6 +167,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathTest.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
       </list>
     </option>
   </component>
@@ -475,14 +474,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="8807000" />
-    </task>
-    <task id="LOCAL-00009" summary=" 贪心策略">
-      <created>1545967801748</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1545967801748</updated>
+      <workItem from="1546494639522" duration="8837000" />
     </task>
     <task id="LOCAL-00010" summary=" 贪心策略">
       <created>1545974026320</created>
@@ -820,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546505288189</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary=" 位运算练习">
+      <created>1546505326921</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505326921</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77256000" />
+    <option name="totallyTimeSpent" value="77286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -874,7 +873,6 @@
     <MESSAGE value=" 动态规划" />
     <MESSAGE value="基本算法一览" />
     <MESSAGE value="readme" />
-    <MESSAGE value=" 位运算练习" />
     <MESSAGE value=" 排序练习题" />
     <MESSAGE value=" 基本的排序算法一览" />
     <MESSAGE value="图练习" />
@@ -891,7 +889,8 @@
     <MESSAGE value=" 字符串练习" />
     <MESSAGE value="归并排序基础类" />
     <MESSAGE value=" 数学练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 数学练习" />
+    <MESSAGE value=" 位运算练习" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 位运算练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1288,16 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="88" column="43" lean-forward="true" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-          <folding>
-            <marker date="1546494103230" expanded="true" signature="5061:5095" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1327,6 +1316,16 @@
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DoublePointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1546505348876" expanded="true" signature="5062:5096" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

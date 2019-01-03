@@ -5,6 +5,7 @@ import java.util.HashSet;
  双指针练习
  * */
 public class DoublePointer {
+
     private final static HashSet<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
 
     /**
