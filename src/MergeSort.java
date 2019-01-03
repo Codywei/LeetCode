@@ -1,3 +1,6 @@
+/**
+ 归并排序基础类
+ * */
 public abstract class MergeSort<T extends Comparable<T>> extends Sort<T> {
 
     protected T[] aux;
