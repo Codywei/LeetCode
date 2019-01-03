@@ -1,5 +1,5 @@
 /**
- 数学练习
- * */
+数学练习
+ **/
 public class MathPractice {
 }
