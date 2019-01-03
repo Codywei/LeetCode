@@ -80,10 +80,10 @@
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
               <folding>
-                <marker date="1546483328608" expanded="false" signature="101:112" ph=" { " />
-                <marker date="1546483328608" expanded="false" signature="127:133" ph=" }" />
+                <marker date="1546483399782" expanded="false" signature="101:112" ph=" { " />
+                <marker date="1546483399782" expanded="false" signature="127:133" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -472,7 +472,7 @@
       <workItem from="1546479292596" duration="1767000" />
       <workItem from="1546481626891" duration="463000" />
       <workItem from="1546482175096" duration="91000" />
-      <workItem from="1546482424975" duration="897000" />
+      <workItem from="1546482424975" duration="968000" />
     </task>
     <task id="LOCAL-00001" summary=" ListNode节点定义">
       <created>1545806900462</created>
@@ -761,11 +761,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546483126761</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary=" 链表节点定义">
+      <created>1546483343111</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1546483343111</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62567000" />
+    <option name="totallyTimeSpent" value="62638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1263,10 +1270,10 @@
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
           <folding>
-            <marker date="1546483328608" expanded="false" signature="101:112" ph=" { " />
-            <marker date="1546483328608" expanded="false" signature="127:133" ph=" }" />
+            <marker date="1546483399782" expanded="false" signature="101:112" ph=" { " />
+            <marker date="1546483399782" expanded="false" signature="127:133" ph=" }" />
           </folding>
         </state>
       </provider>
