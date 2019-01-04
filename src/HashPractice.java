@@ -36,6 +36,8 @@ public class HashPractice {
         return null;
     }
 
+
+
     public static void main(String[] args) {
         HashPractice hp=new HashPractice();
 

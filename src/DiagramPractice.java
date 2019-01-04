@@ -42,12 +42,12 @@ public class DiagramPractice {
     }
 
     private boolean isBipartite(int curNode, int curColor, int[] colors, int[][] graph) {
-        if (colors[curNode] != -1) {
-            return colors[curNode] == curColor;
+        if(colors[curNode]!=-1){
+            return colors[curNode]==curColor;
         }
-        colors[curNode] = curColor;
-        for (int nextNode : graph[curNode]) {
-            if (!isBipartite(nextNode, 1 - curColor, colors, graph)) {
+        colors[curNode]=curColor;
+        for(int nextNode:graph[curNode]){
+            if(!isBipartite(nextNode,1-curColor,colors,graph)){
                 return false;
             }
         }
