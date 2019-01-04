@@ -43,80 +43,7 @@ public class BitOperation {
      }
 
 
-     /**
-      2.最大公约数
-      * */
-     public int gcd(int a,int b){
-         return b==0?a:gcd(b,a%b);
-     }
 
-     /**
-      3.最小公倍数
-
-      最小公倍数为两数的乘积除以最大公约数
-      * */
-     public int lcm(int a,int b){
-         return a*b/(gcd(a,b));
-     }
-
-     /**
-      4.进制转换（7进制）
-      * */
-     public String convertToBase7(int num) {
-         if (num == 0) {
-             return "0";
-         }
-         StringBuilder sb = new StringBuilder();
-         boolean isNegative = num < 0;
-         if (isNegative) {
-             num = -num;
-         }
-         while (num > 0) {
-             sb.append(num % 7);
-             num /= 7;
-         }
-         String ret = sb.reverse().toString();
-         return isNegative ? "-" + ret : ret;
-
-         //Java 中 static String toString(int num, int radix) 可以将一个整数转换为 radix 进制表示的字符串。
-         // return Integer.toString(num, 7);
-     }
-
-
-    /**
-     4.进制转换（16进制）
-
-     Input:
-     26
-     Output:
-     "1a"
-
-     Input:
-     -1
-     Output:
-     "ffffffff"
-
-     负数要用它的补码形式。
-
-     0b1111：二进制1111，十进制15
-     0234：八进制234，十进制156
-     456：十进制456
-     0x789：十六进制789，十进制1929
-
-     * */
-    public String toHex(int num) {
-        char[] map = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
-        if (num == 0) {
-            return "0";
-        }
-        StringBuilder sb = new StringBuilder();
-        while (num != 0) {
-            sb.append(map[num & 0b1111]);
-            // 因为考虑的是补码形式，因此符号位就不能有特殊的意义，需要使用无符号右移，左边填 0
-            num >>>= 4;
-        }
-        return sb.reverse().toString();
-    }
 
 
     public static void main(String[] args) {
@@ -124,18 +51,6 @@ public class BitOperation {
 
         //第一题
         System.out.println("判断一个数是不是 2 的 n 次方： "+bo.isPowerOfTwo(2));
-
-        //第二题
-        System.out.println("最大公约数： "+bo.gcd(6,8));
-
-        //第三题
-        System.out.println("最小公倍数： "+bo.lcm(6,8));
-
-        //第四题
-        System.out.println("7进制： "+bo.convertToBase7(8));
-
-        //第五题
-        System.out.println("16进制： "+bo.toHex(20));
 
 
 
