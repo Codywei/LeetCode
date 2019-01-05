@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  位运算练习
  * */
@@ -42,6 +44,60 @@ public class BitOperation {
          return n > 0 && Integer.bitCount(n) == 1;
      }
 
+     /**
+      2.不用额外变量交换两个整数
+      * */
+     public void swapInteger(int a,int b){
+         a=a^b;
+         b=a^b;
+         a=a^b;
+         System.out.println("不用额外变量交换两个整数： "+a+" "+b);
+     }
+
+
+     /**
+      3.字符串数组最大乘积
+
+      题目描述：字符串数组的字符串只含有小写字符。求解字符串数组中两个字符串长度的最大乘积，要求这两个字符串不能含有相同字符。
+      本题主要问题是判断两个字符串是否含相同字符，由于字符串只含有小写字符，总共 26 位，因此可以用一个 32 位的整数来存储每个字符是否出现过。
+      * */
+     public int maxProduct(String[] words) {
+         int n = words.length;
+
+         //整数数组用于存储表示各个字符串的值
+         int[] val = new int[n];
+         for (int i = 0; i < n; i++) {
+             for (char c : words[i].toCharArray()) {
+                 //在该字符对应位上标上“1”
+                 val[i] |= 1 << (c - 'a');
+             }
+         }
+         int ret = 0;
+         for (int i = 0; i < n; i++) {
+             for (int j = i + 1; j < n; j++) {
+                 if ((val[i] & val[j]) == 0) {
+                     ret = Math.max(ret, words[i].length() * words[j].length());
+                 }
+             }
+         }
+         return ret;
+     }
+
+
+     /**
+      4.统计从 0 ~ n 每个数的二进制表示中 1 的个数
+
+      对于数字 6(110)，它可以看成是 4(100) 再加一个 2(10)，因此 dp[i] = dp[i&(i-1)] + 1;
+      * */
+     public int[] countBits(int num) {
+         int[] ret = new int[num + 1];
+         for(int i = 1; i <= num; i++){
+             ret[i] = ret[i&(i-1)] + 1;
+         }
+         return ret;
+     }
+
+
 
 
 
@@ -52,7 +108,18 @@ public class BitOperation {
         //第一题
         System.out.println("判断一个数是不是 2 的 n 次方： "+bo.isPowerOfTwo(2));
 
+        //第二题
+        bo.swapInteger(4,5);
 
 
+        //第三题
+        String[] array={"abcw", "baz", "foo", "bar", "xtfn", "abcdef"};
+        System.out.println("字符串数组的最大乘积: "+bo.maxProduct(array));
+
+
+        //第四题
+        int[] array2=bo.countBits(6);
+        System.out.print("统计从 0 ~ n 每个数的二进制表示中 1 的个数: ");
+        Arrays.stream(array2).forEach((result)-> System.out.print((result+" ")));
     }
 }

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" afterPath="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" afterPath="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +25,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackandQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MathTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,15 +35,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BitOperation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
               <folding>
-                <element signature="e#1428#1429#0" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#1454#1455#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreePractice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiagramPractice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiagramPractice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="524">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -171,10 +168,10 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MathTest.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/HashPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/BitOperation.java" />
       </list>
     </option>
   </component>
@@ -286,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiagramPractice">
+  <component name="RunManager" selected="Application.BitOperation">
     <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BitOperation" />
@@ -446,9 +443,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiagramPractice" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HashPractice" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BitOperation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BitOperation" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DiagramPractice" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HashPractice" />
         <item index="3" class="java.lang.String" itemvalue="Application.TreePractice" />
         <item index="4" class="java.lang.String" itemvalue="Application.MathTest" />
       </list>
@@ -481,14 +478,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="16148000" />
-    </task>
-    <task id="LOCAL-00020" summary=" 数学练习">
-      <created>1546133313170</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1546133313170</updated>
+      <workItem from="1546494639522" duration="19987000" />
     </task>
     <task id="LOCAL-00021" summary=" 栈和队列练习">
       <created>1546133384454</created>
@@ -826,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546568256079</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="判断是否为二分图">
+      <created>1546571898188</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1546571898189</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84597000" />
+    <option name="totallyTimeSpent" value="88436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -872,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 树练习" />
     <MESSAGE value="基本算法一览" />
     <MESSAGE value="readme" />
     <MESSAGE value="图练习" />
@@ -897,7 +893,8 @@
     <MESSAGE value=" Sort抽象类" />
     <MESSAGE value=" 位运算练习" />
     <MESSAGE value=" 数学练习" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 数学练习" />
+    <MESSAGE value="判断是否为二分图" />
+    <option name="LAST_COMMIT_MESSAGE" value="判断是否为二分图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1240,14 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/StackandQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
@@ -1285,30 +1274,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/ArrayandMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,9 +1300,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/DiagramPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="524">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/TreePractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/BitOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
