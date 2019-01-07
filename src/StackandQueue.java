@@ -48,6 +48,30 @@ public class StackandQueue {
         return dist;
     }
 
+
+
+    /**
+     3.循环数组中比当前元素大的下一个元素
+
+     与上一题不同的是，数组是循环数组，并且最后要求的不是距离而是下一个元素。
+     * */
+    public int[] nextGreaterElements(int[] nums) {
+        int n = nums.length;
+        int[] next = new int[n];
+        Arrays.fill(next, -1);
+        Stack<Integer> pre = new Stack<>();
+        for (int i = 0; i < n * 2; i++) {
+            int num = nums[i % n];
+            while (!pre.isEmpty() && nums[pre.peek()] < num) {
+                next[pre.pop()] = num;
+            }
+            if (i < n){
+                pre.push(i);
+            }
+        }
+        return next;
+    }
+
     public static void main(String[] args) {
         StackandQueue sq=new StackandQueue();
 
@@ -59,5 +83,13 @@ public class StackandQueue {
         int[] array={73, 74, 75, 71, 69, 72, 76, 73};
         System.out.print("数组中元素与下一个比它大的元素之间的距离：");
         Arrays.stream(sq.dailyTemperatures(array)).forEach((result)->System.out.print(result+" "));
+        System.out.println();
+
+
+        //第三题
+        int[] array2={1,2,1};
+        System.out.print("循环数组中比当前元素大的下一个元素");
+        Arrays.stream(sq.nextGreaterElements(array2)).forEach((result)->System.out.print(result+" "));
+        System.out.println();
     }
 }
