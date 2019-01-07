@@ -67,7 +67,9 @@ public class HashPractice {
     }
 
 
-
+    /**
+     4.最长连续序列
+     * */
     public int longestConsecutive(int[] nums) {
         Map<Integer, Integer> countForNum = new HashMap<>();
         for (int num : nums) {
