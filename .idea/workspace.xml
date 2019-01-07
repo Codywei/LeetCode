@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -488,14 +488,7 @@
       <workItem from="1546482424975" duration="2986000" />
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
-      <workItem from="1546494639522" duration="32952000" />
-    </task>
-    <task id="LOCAL-00027" summary=" 数组和矩阵练习">
-      <created>1546398729537</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1546398729537</updated>
+      <workItem from="1546494639522" duration="34165000" />
     </task>
     <task id="LOCAL-00028" summary="readme">
       <created>1546414935058</created>
@@ -833,11 +826,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546826276018</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="链表练习">
+      <created>1546827598208</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1546827598208</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101401000" />
+    <option name="totallyTimeSpent" value="102614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -882,7 +882,6 @@
     <MESSAGE value="基本算法一览" />
     <MESSAGE value="readme" />
     <MESSAGE value=" 链表节点定义" />
-    <MESSAGE value="链表练习" />
     <MESSAGE value="改变编码环境" />
     <MESSAGE value="数学练习" />
     <MESSAGE value="测试" />
@@ -904,7 +903,8 @@
     <MESSAGE value=" 数组和矩阵练习" />
     <MESSAGE value=" 贪心策略" />
     <MESSAGE value="Hash练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hash练习" />
+    <MESSAGE value="链表练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1346,7 +1346,7 @@
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/ListPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>

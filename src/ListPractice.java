@@ -69,6 +69,24 @@ public class ListPractice {
         return true;
     }
 
+    /**
+     3.链表元素按奇偶聚集
+     * */
+    public ListNode oddEvenList(ListNode head) {
+        if (head == null) {
+            return head;
+        }
+        ListNode odd = head, even = head.next, evenHead = even;
+        while (even != null && even.next != null) {
+            odd.next = odd.next.next;
+            odd = odd.next;
+            even.next = even.next.next;
+            even = even.next;
+        }
+        odd.next = evenHead;
+        return head;
+    }
+
 
     public static void main(String[] args) {
         ListPractice lp=new ListPractice();
@@ -104,5 +122,24 @@ public class ListPractice {
         n23.next=n24;
         n24.next=n25;
         System.out.println("判断是否为回文链表： "+lp.isPalindrome(n21));
+
+
+        //第三题
+        ListNode n31=new ListNode(1);
+        ListNode n32=new ListNode(2);
+        ListNode n33=new ListNode(3);
+        ListNode n34=new ListNode(4);
+        ListNode n35=new ListNode(5);
+        n31.next=n32;
+        n32.next=n33;
+        n33.next=n34;
+        n34.next=n35;
+        ListNode head1=lp.oddEvenList(n31);
+        System.out.print("链表元素按奇偶聚集： ");
+        while(head1!=null){
+            System.out.print(head1.val+" ");
+            head1=head1.next;
+        }
+        System.out.println();
     }
 }
