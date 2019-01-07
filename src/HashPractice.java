@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 /**
 Hash练习
@@ -37,13 +36,95 @@ public class HashPractice {
     }
 
 
+    /**
+     2.最长和谐序列
+     和谐序列中最大数和最小数只差正好为 1，应该注意的是序列的元素不一定是数组的连续元素。
+     * */
+    public int findLHS(int[] nums) {
+        Map<Integer, Integer> countForNum = new HashMap<>();
+        for (int num : nums) {
+            countForNum.put(num, countForNum.getOrDefault(num, 0) + 1);
+        }
+        int longest = 0;
+        for (int num : countForNum.keySet()) {
+            if (countForNum.containsKey(num + 1)) {
+                longest = Math.max(longest, countForNum.get(num + 1) + countForNum.get(num));
+            }
+        }
+        return longest;
+    }
+
+
+    /**
+     3.判断数组是否有重复元素
+     * */
+    public boolean containsDuplicate(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        return set.size() < nums.length;
+    }
+
+
+
+    public int longestConsecutive(int[] nums) {
+        Map<Integer, Integer> countForNum = new HashMap<>();
+        for (int num : nums) {
+            countForNum.put(num, 1);
+        }
+        for (int num : nums) {
+            forward(countForNum, num);
+        }
+        return maxCount(countForNum);
+    }
+
+    private int forward(Map<Integer, Integer> countForNum, int num) {
+        if (!countForNum.containsKey(num)) {
+            return 0;
+        }
+        int cnt = countForNum.get(num);
+        if (cnt > 1) {
+            return cnt;
+        }
+        cnt = forward(countForNum, num + 1) + 1;
+        countForNum.put(num, cnt);
+        return cnt;
+    }
+
+    private int maxCount(Map<Integer, Integer> countForNum) {
+        int max = 0;
+        for (int num : countForNum.keySet()) {
+            max = Math.max(max, countForNum.get(num));
+        }
+        return max;
+    }
+
+
 
     public static void main(String[] args) {
         HashPractice hp=new HashPractice();
 
         //第一题
-        int[]array={3,4,2,1,5,7,9};
+        int[] array={3,4,2,1,5,7,9};
         System.out.print("数组中两个数的和为定值（返回索引）： ");
         Arrays.stream(hp.twoSum(array, 3)).forEach((result)->System.out.print(result+" "));
+        System.out.println();
+
+        //第二题
+        int[] array2={1,3,2,2,5,2,3,7};
+        System.out.println("最长和谐序列的长度： "+  hp.findLHS(array2));
+
+
+        //第三题
+        int[] array3={2,4,3,5,2,1};
+        System.out.println("数组是否含有重复元素: "+hp.containsDuplicate(array3));
+
+
+        //第四题
+        int[] array4={100, 4, 200, 1, 3, 2};
+        System.out.println("最长连续序列: "+hp.longestConsecutive(array4));
+
+
     }
 }
