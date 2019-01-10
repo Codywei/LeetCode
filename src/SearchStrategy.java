@@ -1,9 +1,6 @@
 import javafx.util.Pair;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  搜索策略
@@ -97,6 +94,71 @@ public class SearchStrategy {
         return -1;
     }
 
+
+
+
+
+
+    /**
+     2.2 组成整数的最小平方数数量
+
+     For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return 2 because 13 = 4 + 9.
+     可以将每个整数看成图中的一个节点，如果两个整数之差为一个平方数，那么这两个整数所在的节点就有一条边。
+
+     要求解最小的平方数数量，就是求解从节点 n 到节点 0 的最短路径。
+     * */
+    public int numSquares(int n) {
+        List<Integer> squares = generateSquares(n);
+        Queue<Integer> queue = new LinkedList<>();
+        boolean[] marked = new boolean[n + 1];
+        queue.add(n);
+        marked[n] = true;
+        int level = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            level++;
+            while (size-- > 0) {
+                int cur = queue.poll();
+                for (int s : squares) {
+                    int next = cur - s;
+                    if (next < 0) {
+                        break;
+                    }
+                    if (next == 0) {
+                        return level;
+                    }
+                    if (marked[next]) {
+                        continue;
+                    }
+                    marked[next] = true;
+                    queue.add(next);
+                }
+            }
+        }
+        return n;
+    }
+
+    /**
+     * 生成小于 n 的平方数序列
+     * @return 1,4,9,...
+     */
+    private List<Integer> generateSquares(int n) {
+        List<Integer> squares = new ArrayList<>();
+        int square = 1;
+        int diff = 3;
+        while (square <= n) {
+            squares.add(square);
+            square += diff;
+            diff += 2;
+        }
+        return squares;
+    }
+
+
+
+
+
+
     /**
      3.DFS练习
 
@@ -141,6 +203,49 @@ public class SearchStrategy {
         return area;
     }
 
+
+
+    /**
+     3.2 好友关系的连通分量数目
+
+     Input:
+     [[1,1,0],
+     [1,1,0],
+     [0,0,1]]
+
+     Output: 2
+
+     题目描述：好友关系可以看成是一个无向图，例如第 0 个人与第 1 个人是好友，那么 M[0][1] 和 M[1][0] 的值都为 1。
+     * */
+
+
+    public int findCircleNum(int[][] M) {
+        n = M.length;
+        int circleNum = 0;
+        boolean[] hasVisited = new boolean[n];
+        for (int i = 0; i < n; i++) {
+            if (!hasVisited[i]) {
+                dfs(M, i, hasVisited);
+                circleNum++;
+            }
+        }
+        return circleNum;
+    }
+
+    private void dfs(int[][] M, int i, boolean[] hasVisited) {
+        hasVisited[i] = true;
+        for (int k = 0; k < n; k++) {
+            if (M[i][k] == 1 && !hasVisited[k]) {
+                dfs(M, k, hasVisited);
+            }
+        }
+    }
+
+
+
+
+
+
     /**
      4.Backtracking
      Backtracking（回溯）属于 DFS。
@@ -152,6 +257,7 @@ public class SearchStrategy {
      在访问一个新元素进入新的递归调用时，需要将新元素标记为已经访问，这样才能在继续递归调用时不用重复访问该元素；
      但是在递归返回时，需要将元素标记为未访问，因为只需要保证在一个递归链中不同时访问一个元素，可以访问已经访问过但是不在当前递归链中的元素。
      * */
+
 
 
     /**
@@ -186,6 +292,64 @@ public class SearchStrategy {
 
 
 
+    /**
+     4.2 N皇后
+
+     在 n*n 的矩阵中摆放 n 个皇后，并且每个皇后不能在同一行，同一列，同一对角线上，求所有的 n 皇后的解。
+     一行一行地摆放，在确定一行中的那个皇后应该摆在哪一列时，需要用三个标记数组来确定某一列是否合法，这三个标记数组分别为：列标记数组、45 度对角线标记数组和 135 度对角线标记数组。
+
+
+     45 度对角线标记数组的长度为 2 * n - 1，通过下图可以明确 (r, c) 的位置所在的数组下标为 r + c。
+
+     135 度对角线标记数组的长度也是 2 * n - 1，(r, c) 的位置所在的数组下标为 n - 1 - (r - c)。
+     * */
+    private List<List<String>> solutions;
+    private char[][] nQueens;
+    private boolean[] colUsed;
+    private boolean[] diagonals45Used;
+    private boolean[] diagonals135Used;
+    private int num;
+
+    public List<List<String>> solveNQueens(int n) {
+        solutions = new ArrayList<>();
+        nQueens = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(nQueens[i], '.');
+        }
+        colUsed = new boolean[n];
+        diagonals45Used = new boolean[2 * n - 1];
+        diagonals135Used = new boolean[2 * n - 1];
+        this.num = n;
+        backtracking(0);
+        return solutions;
+    }
+
+    private void backtracking(int row) {
+        if (row == num) {
+            List<String> list = new ArrayList<>();
+            for (char[] chars : nQueens) {
+                list.add(new String(chars));
+            }
+            solutions.add(list);
+            return;
+        }
+
+        for (int col = 0; col < num; col++) {
+            int diagonals45Idx = row + col;
+            int diagonals135Idx = num - 1 - (row - col);
+            if (colUsed[col] || diagonals45Used[diagonals45Idx] || diagonals135Used[diagonals135Idx]) {
+                continue;
+            }
+            nQueens[row][col] = 'Q';
+            colUsed[col] = diagonals45Used[diagonals45Idx] = diagonals135Used[diagonals135Idx] = true;
+            backtracking(row + 1);
+            colUsed[col] = diagonals45Used[diagonals45Idx] = diagonals135Used[diagonals135Idx] = false;
+            nQueens[row][col] = '.';
+        }
+    }
+
+
+
     public static void main(String[] args) {
         SearchStrategy ss=new SearchStrategy();
 
@@ -199,15 +363,31 @@ public class SearchStrategy {
         int[][] arrays={{1,1,0,1},{1,0,1,0},{1,1,1,1},{1,0,1,1}};
         System.out.println("网格中最短路径长度： "+ss.minPathLength(arrays,3,2));
 
+
+        //BFS 第二题
+        System.out.println("组成整数的最小平方数数量： "+ss.numSquares(12));
+
+
         //DFS 第一题
         int[][] arrays2={{1,1,0,1},{1,0,1,0},{1,1,1,1},{1,0,1,1}};
         System.out.println("最大的连通面积： "+ss.maxAreaOfIsland(arrays2));
+
+
+        //DFS 第二题
+        int[][] array3={{1,1,0},{1,1,0},{0,0,1}};
+        System.out.println("好友关系的连通分量数目： "+ss.findCircleNum(array3));
 
 
         //Backtracking 第一题
         String digits="23";
         System.out.print("数字键盘的组合有： ");
         ss.letterCombinations(digits).forEach((result)->System.out.print(result+"  "));
+        System.out.println();
+
+
+        //Backtracking 第二题
+        System.out.println("N皇后的组合有： ");
+        ss.solveNQueens(4).forEach((result)-> System.out.println(result));
         System.out.println();
     }
 }
