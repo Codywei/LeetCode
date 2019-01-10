@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84dd3f94-ca02-4882-a65f-61419e2845f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/SortBase.java" afterPath="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" afterPath="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../LeetCode/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1547014870215" expanded="true" signature="79:84" ph="/**...*/" />
@@ -44,16 +44,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1660">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../LeetCode/src/MathTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3460">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,6 +67,18 @@
             <state relative-caret-position="-2022">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicPlanning.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <marker date="1547088805237" expanded="true" signature="8505:9164" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,7 +166,6 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/DoublePointer.java" />
-        <option value="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SearchStrategy.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortAlgorithm.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/Sort.java" />
@@ -179,6 +180,7 @@
         <option value="$PROJECT_DIR$/../LeetCode/src/StringPractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/TreePractice.java" />
         <option value="$PROJECT_DIR$/../LeetCode/src/SortBase.java" />
+        <option value="$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java" />
       </list>
     </option>
   </component>
@@ -320,10 +322,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreePractice">
-    <configuration name="ListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DynamicPlanning">
+    <configuration name="DynamicPlanning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ListPractice" />
+      <option name="MAIN_CLASS_NAME" value="DynamicPlanning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LeetCode" />
@@ -472,19 +474,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ListPractice" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StackandQueue" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MathTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringPractice" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TreePractice" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StackandQueue" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MathTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringPractice" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TreePractice" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DynamicPlanning" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TreePractice" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringPractice" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MathTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StackandQueue" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ListPractice" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DynamicPlanning" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TreePractice" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringPractice" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MathTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StackandQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -516,14 +518,7 @@
       <workItem from="1546485552306" duration="2495000" />
       <workItem from="1546493318120" duration="1298000" />
       <workItem from="1546494639522" duration="37284000" />
-      <workItem from="1546912150861" duration="16636000" />
-    </task>
-    <task id="LOCAL-00033" summary="Hash练习">
-      <created>1546479390428</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1546479390428</updated>
+      <workItem from="1546912150861" duration="20582000" />
     </task>
     <task id="LOCAL-00034" summary=" 链表节点定义">
       <created>1546482030878</created>
@@ -861,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547004078704</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary=" 基本的排序算法一览">
+      <created>1547084852301</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1547084852302</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122369000" />
+    <option name="totallyTimeSpent" value="126315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -879,7 +881,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23612623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23612623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.095756255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -890,7 +892,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12078346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12078346" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -918,7 +920,6 @@
     <MESSAGE value=" 动态规划" />
     <MESSAGE value=" 搜索策略" />
     <MESSAGE value=" 排序练习题" />
-    <MESSAGE value=" 基本的排序算法一览" />
     <MESSAGE value=" Sort抽象类" />
     <MESSAGE value=" 数学练习" />
     <MESSAGE value="判断是否为二分图" />
@@ -932,7 +933,8 @@
     <MESSAGE value="数学练习" />
     <MESSAGE value=" 字符串练习" />
     <MESSAGE value="树练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="树练习" />
+    <MESSAGE value=" 基本的排序算法一览" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 基本的排序算法一览" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1231,16 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <marker date="1546505371553" expanded="true" signature="1784:1814" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/GreedyStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3660">
@@ -1358,11 +1350,21 @@
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/SortBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1547014870215" expanded="true" signature="79:84" ph="/**...*/" />
             <marker date="1547014870215" expanded="true" signature="10535:10672" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LeetCode/src/DynamicPlanning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <marker date="1547088805237" expanded="true" signature="8505:9164" ph="{...}" />
           </folding>
         </state>
       </provider>
