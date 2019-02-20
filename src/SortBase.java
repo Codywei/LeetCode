@@ -174,7 +174,7 @@ public class SortBase {
             sort(nums, 0, nums.length - 1);
         }
 
-        private void sort(T[] nums, int l, int h) {
+        public void sort(T[] nums, int l, int h) {
             if (h <= l) {
                 return;
             }
@@ -217,8 +217,8 @@ public class SortBase {
      三向切分快速排序对于只有若干不同主键的随机数组可以在线性时间内完成排序。
      * */
     static class ThreeWayQuickSort<T extends Comparable<T>> extends QuickSort<T> {
-
-        protected void sort(T[] nums, int l, int h) {
+        @Override
+        public void sort(T[] nums, int l, int h) {
             if (h <= l) {
                 return;
             }
