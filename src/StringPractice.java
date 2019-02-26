@@ -117,6 +117,35 @@ public class StringPractice {
     }
 
 
+    public boolean Isipv4(String ipv4){
+        if(ipv4==null || ipv4.length()==0){
+            //字符串为空或者空串
+            return false;
+        }
+
+        //因为java doc里已经说明, split的参数是reg, 即正则表达式, 如果用"|"分割, 则需使用"\\|"
+        String[] parts=ipv4.split("\\.");
+
+        //分割开的数组不是4个
+        if(parts.length!=4){
+            return false;
+        }
+        for(int i=0;i<parts.length;i++){
+            try{
+                //数字不在正确范围内
+                int n=Integer.parseInt(parts[i]);
+                if(n<0 || n>255){
+                    return false;
+                }
+            }catch (NumberFormatException e) {
+                //转换数字不正确
+                return false;
+            }
+        }
+        return true;
+    }
+
+
 
     public static void main(String[] args) {
         StringPractice sp=new StringPractice();
@@ -142,5 +171,9 @@ public class StringPractice {
         //第五题
         String s5="00110011";
         System.out.println("回文字符串个数: "+sp.countBinarySubstrings(s5));
+
+        //第六题
+        String s6="22.3.4.1";
+        System.out.println("是否为IPV4地址："+sp.Isipv4(s6));
     }
 }
